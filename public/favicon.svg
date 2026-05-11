@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#F59E0B"/>
+  <!-- Chimney body -->
+  <rect x="10" y="14" width="12" height="12" rx="1" fill="white"/>
+  <!-- Chimney top cap -->
+  <rect x="8" y="11" width="16" height="3" rx="1" fill="white"/>
+  <!-- Chimney flue opening -->
+  <rect x="13" y="17" width="6" height="6" rx="1" fill="#F59E0B"/>
+  <!-- Smoke / flame -->
+  <path d="M16 10 C14 8 15 5 16 4 C16 6 17.5 7 17 8.5 C18 7 18 5.5 17.5 4.5 C19 6 19 9 17.5 10.5 C16.5 11.5 15 11 16 10Z" fill="white"/>
+</svg>
