@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">Above Services</span>
             </Link>
             <p className="text-blue-300 text-sm leading-relaxed mb-5">
-              Boston's trusted chimney specialists. Expert chimney cleaning, repair, inspection, rebuilds, and all chimney services since 2013.
+              New England's trusted chimney specialists. Expert chimney cleaning, repair, inspection, rebuilds, and all chimney services across MA & Southern NH since 2013.
             </p>
             {/* Social links */}
             <div className="flex items-center gap-3">
@@ -152,7 +152,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Boston, MA & Greater Area
+                Massachusetts & Southern NH
               </li>
               <li className="flex items-start gap-2.5 text-blue-300">
                 <svg className="w-4 h-4 text-amber-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

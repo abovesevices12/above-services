@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Rebuilds Boston MA | Full & Partial Reconstruction | (781) 921-6228',
   description:
-    'Expert chimney rebuilds in Boston, MA. Full & partial chimney reconstruction using premium matching materials. CSIA-certified masons serving Cambridge, Brookline, Newton & Greater Boston. Call (781) 921-6228.',
+    'Expert chimney rebuilds across New England. Full & partial chimney reconstruction using premium matching materials. CSIA-certified masons serving Massachusetts & Southern NH. Call (781) 921-6228.',
   keywords: [
     'chimney rebuilds Boston MA',
     'chimney reconstruction Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chimney Rebuilds Boston MA | Above Services | (781) 921-6228',
     description:
-      'Expert chimney rebuilds in Boston, MA. Full & partial chimney reconstruction using premium matching materials. CSIA-certified masons serving Cambridge, Brookline, Newton & Greater Boston. Call (781) 921-6228.',
+      'Expert chimney rebuilds across New England. Full & partial chimney reconstruction using premium matching materials. CSIA-certified masons serving Massachusetts & Southern NH. Call (781) 921-6228.',
     url: 'https://www.aboveservicesboston.com/chimney-rebuilds',
   },
 };
@@ -74,7 +74,7 @@ const faqs = [
   {
     question: 'Can you match the original brick and mortar?',
     answer:
-      'Yes. Matching brick and mortar is one of our specialties, especially important in Boston where many homes have historic or antique brick that can be difficult to source. We take core samples of the existing mortar to analyze the composition, and we work with local masonry suppliers to source brick that matches your existing chimney as closely as possible in color, texture, and size.',
+      'Yes. Matching brick and mortar is one of our specialties, especially important in New England where many homes have historic or antique brick that can be difficult to source. We take core samples of the existing mortar to analyze the composition, and we work with local masonry suppliers to source brick that matches your existing chimney as closely as possible in color, texture, and size.',
   },
   {
     question: 'Can I use my fireplace while a rebuild is being scheduled?',
@@ -84,7 +84,7 @@ const faqs = [
   {
     question: 'Is a permit required for a chimney rebuild?',
     answer:
-      'Yes — chimney rebuilds require a building permit in Boston and most surrounding communities. Above Services pulls all necessary permits as part of our service. We handle the permit application, scheduling of required inspections, and final sign-off. You don\'t need to deal with the building department at all.',
+      'Yes — chimney rebuilds require a building permit in Massachusetts and New Hampshire. Above Services pulls all necessary permits as part of our service. We handle the permit application, scheduling of required inspections, and final sign-off. You don\'t need to deal with the building department at all.',
   },
   {
     question: 'What is the difference between repointing and rebuilding?',
@@ -94,7 +94,7 @@ const faqs = [
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Chimney Rebuilds', description: 'Expert full and partial chimney reconstruction in Boston, MA. Premium matching brick and mortar by CSIA-certified masonry specialists.', slug: 'chimney-rebuilds' }),
+  serviceSchema({ name: 'Chimney Rebuilds', description: 'Expert full and partial chimney reconstruction across New England. Premium matching brick and mortar by CSIA-certified masonry specialists.', slug: 'chimney-rebuilds' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Chimney Rebuilds', href: '/chimney-rebuilds' }]),
 ];
@@ -107,7 +107,7 @@ export default function ChimneyRebuildsPage() {
       ))}
 
       <ServiceHero
-        title="Chimney Rebuilds in Boston, MA"
+        title="Chimney Rebuilds Across New England"
         subtitle="Some chimneys have been patched too many times. When the masonry is too far gone for repairs, we take it down and rebuild it — matching your original brick, pulling all the permits, and getting it right."
         breadcrumbs={[{ label: 'Chimney Rebuilds', href: '/chimney-rebuilds' }]}
         badge="Inspection Included with Every Quote"
@@ -129,7 +129,7 @@ export default function ChimneyRebuildsPage() {
             {[
               {
                 title: 'Severe Spalling Brick',
-                desc: 'When brick faces are flaking or breaking apart throughout the chimney, the structural integrity is compromised. Spalled brick cannot hold mortar properly and the condition accelerates quickly with Boston\'s freeze-thaw cycles.',
+                desc: 'When brick faces are flaking or breaking apart throughout the chimney, the structural integrity is compromised. Spalled brick cannot hold mortar properly and the condition accelerates quickly with New England\'s freeze-thaw cycles.',
                 icon: '🧱',
               },
               {
@@ -154,7 +154,7 @@ export default function ChimneyRebuildsPage() {
               },
               {
                 title: 'Freeze-Thaw Damage',
-                desc: 'Boston\'s harsh winters are brutal on chimneys. Water infiltrating small cracks freezes and expands, widening those cracks each cycle. After years of neglect, the cumulative damage can make a rebuild more cost-effective than piecemeal repairs.',
+                desc: 'New England\'s harsh winters are brutal on chimneys. Water infiltrating small cracks freezes and expands, widening those cracks each cycle. After years of neglect, the cumulative damage can make a rebuild more cost-effective than piecemeal repairs.',
                 icon: '❄️',
               },
             ].map((item) => (
@@ -257,7 +257,7 @@ export default function ChimneyRebuildsPage() {
               {
                 step: '2',
                 title: 'Material Selection',
-                desc: 'We source brick that matches your existing chimney in color, texture, and size. Our team analyzes the existing mortar composition to create a matching mix — critically important for historic Boston homes where aesthetics matter.',
+                desc: 'We source brick that matches your existing chimney in color, texture, and size. Our team analyzes the existing mortar composition to create a matching mix — critically important for historic New England homes where aesthetics matter.',
               },
               {
                 step: '3',
@@ -287,7 +287,7 @@ export default function ChimneyRebuildsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">What Our Customers Say</h2>
-            <p className="text-gray-600">Real reviews from Boston homeowners about our chimney rebuild work.</p>
+            <p className="text-gray-600">Real reviews from New England homeowners about our chimney rebuild work.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -302,7 +302,7 @@ export default function ChimneyRebuildsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Chimney Rebuild FAQ</h2>
-            <p className="text-gray-600">Common questions about chimney rebuilds in Boston, MA.</p>
+            <p className="text-gray-600">Common questions about chimney rebuilds in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -338,7 +338,7 @@ export default function ChimneyRebuildsPage() {
 
       <CTABanner
         heading="Call Above Services — Book Your Rebuild Today"
-        subtext="Don't let structural chimney damage put your home at risk. Call today, save 10%, and get a full assessment before any work begins. Serving all of Greater Boston."
+        subtext="Don't let structural chimney damage put your home at risk. Call today, save 10%, and get a full assessment before any work begins. Serving all of New England."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

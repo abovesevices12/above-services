@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Crown Repair Boston MA | Above Services | (781) 921-6228',
   description:
-    'Chimney crown repair & replacement in Boston, MA. Prevent water infiltration & freeze-thaw damage. Expert masons. Call (781) 921-6228.',
+    'Chimney crown repair & replacement across New England. Prevent water infiltration & freeze-thaw damage. Expert masons. Call (781) 921-6228.',
   keywords: [
     'chimney crown repair Boston MA',
     'chimney crown replacement Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chimney Crown Repair Boston MA | Above Services | (781) 921-6228',
     description:
-      'Chimney crown repair & replacement in Boston, MA. Prevent water infiltration & freeze-thaw damage. Expert masons.',
+      'Chimney crown repair & replacement across New England. Prevent water infiltration & freeze-thaw damage. Expert masons.',
     url: 'https://www.aboveservicesboston.com/chimney-crown-repair',
   },
 };
@@ -79,7 +79,7 @@ const faqs = [
   {
     question: 'How long does a new chimney crown last?',
     answer:
-      'A properly constructed chimney crown — made from a strong concrete mix with the correct slope and adequate overhang — can last 25–50 years or more. The most common reason crowns fail prematurely is poor original construction (using plain mortar instead of concrete, inadequate thickness, or insufficient drip edge) combined with Boston\'s harsh freeze-thaw cycles. Our replacement crowns are built to proper specifications and carry a 10-year warranty.',
+      'A properly constructed chimney crown — made from a strong concrete mix with the correct slope and adequate overhang — can last 25–50 years or more. The most common reason crowns fail prematurely is poor original construction (using plain mortar instead of concrete, inadequate thickness, or insufficient drip edge) combined with New England\'s harsh freeze-thaw cycles. Our replacement crowns are built to proper specifications and carry a 10-year warranty.',
   },
   {
     question: 'Is chimney crown repair a DIY job?',
@@ -94,7 +94,7 @@ const faqs = [
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Chimney Crown Repair', description: 'Expert chimney crown repair and replacement in Boston, MA. Prevent water infiltration and freeze-thaw damage with professional crown restoration.', slug: 'chimney-crown-repair' }),
+  serviceSchema({ name: 'Chimney Crown Repair', description: 'Expert chimney crown repair and replacement across New England. Prevent water infiltration and freeze-thaw damage with professional crown restoration.', slug: 'chimney-crown-repair' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Chimney Crown Repair', href: '/chimney-crown-repair' }]),
 ];
@@ -107,8 +107,8 @@ export default function ChimneyCrownRepairPage() {
       ))}
 
       <ServiceHero
-        title="Chimney Crown Repair in Boston, MA"
-        subtitle="Boston winters are rough on chimney crowns. Water gets into small cracks, freezes overnight, and opens them wider each cycle. A crown repair today can prevent a costly rebuild later. We fix crowns before that happens."
+        title="Chimney Crown Repair Across New England"
+        subtitle="New England winters are rough on chimney crowns. Water gets into small cracks, freezes overnight, and opens them wider each cycle. A crown repair today can prevent a costly rebuild later. We fix crowns before that happens."
         breadcrumbs={[{ label: 'Chimney Crown Repair', href: '/chimney-crown-repair' }]}
         badge="CSIA-Certified Crown Repair"
       />
@@ -183,17 +183,17 @@ export default function ChimneyCrownRepairPage() {
             <div className="text-center mb-10">
               <span className="text-amber-400 font-semibold text-sm uppercase tracking-wider">The Local Challenge</span>
               <h2 className="text-3xl md:text-4xl font-bold text-white mt-2 mb-4">
-                Boston's Climate Is Brutal on Chimney Crowns
+                New England's Climate Is Brutal on Chimney Crowns
               </h2>
               <p className="text-blue-300 text-lg">
-                Greater Boston experiences some of the harshest freeze-thaw conditions in the country — and chimney crowns bear the brunt of it.
+                New England experiences some of the harshest freeze-thaw conditions in the country — and chimney crowns bear the brunt of it.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
               <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center">
                 <div className="text-4xl font-bold text-amber-400 mb-2">43&quot;</div>
                 <div className="text-white font-semibold mb-2">Annual Rainfall</div>
-                <p className="text-blue-300 text-sm">Boston averages 43 inches of rain per year — every drop a potential source of crown infiltration.</p>
+                <p className="text-blue-300 text-sm">New England averages 43–50 inches of precipitation per year — every drop a potential source of crown infiltration.</p>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center">
                 <div className="text-4xl font-bold text-amber-400 mb-2">48&quot;</div>
@@ -296,7 +296,7 @@ export default function ChimneyCrownRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">What Our Customers Say</h2>
-            <p className="text-gray-600">Real reviews from Boston homeowners about our chimney crown repair work.</p>
+            <p className="text-gray-600">Real reviews from New England homeowners about our chimney crown repair work.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -311,7 +311,7 @@ export default function ChimneyCrownRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Chimney Crown Repair FAQ</h2>
-            <p className="text-gray-600">Common questions about chimney crown repair in Boston, MA.</p>
+            <p className="text-gray-600">Common questions about chimney crown repair in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -347,7 +347,7 @@ export default function ChimneyCrownRepairPage() {
 
       <CTABanner
         heading="Fix Your Chimney Crown Before Winter"
-        subtext="A cracked crown today is a costly chimney repair tomorrow. Above Services provides expert crown repair and replacement throughout Greater Boston. Call now."
+        subtext="A cracked crown today is a costly chimney repair tomorrow. Above Services provides expert crown repair and replacement throughout New England. Call now."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

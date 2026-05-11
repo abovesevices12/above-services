@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Fireplace Repair Boston MA | Damper, Firebox & Gas Fireplace Service | (781) 921-6228',
   description:
-    'Professional fireplace repair in Boston, MA. Damper repair, firebox restoration, gas fireplace service & insert installation. Licensed & insured. Call (781) 921-6228 today.',
+    'Professional fireplace repair across New England. Damper repair, firebox restoration, gas fireplace service & insert installation. Licensed & insured. Call (781) 921-6228 today.',
   keywords: [
     'fireplace repair Boston MA',
     'damper repair Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Fireplace Repair Boston MA | Above Services | (781) 921-6228',
     description:
-      'Professional fireplace repair in Boston, MA. Damper repair, firebox restoration, gas fireplace service & insert installation. Serving Cambridge, Brookline & Greater Boston. Call (781) 921-6228.',
+      'Professional fireplace repair across New England. Damper repair, firebox restoration, gas fireplace service & insert installation. Serving MA & Southern NH. Call (781) 921-6228.',
     url: 'https://www.aboveservicesboston.com/fireplace-repair',
   },
 };
@@ -87,14 +87,14 @@ const faqs = [
       'Have it inspected annually by a CSIA-certified technician before each heating season. Signs of an unsafe fireplace include cracks in the firebox or flue tiles, a damaged or missing damper, excessive creosote buildup, debris blockages, or structural damage to the chimney. Don\'t use your fireplace if you\'re unsure — call us for a safety inspection first.',
   },
   {
-    question: 'What does fireplace repair cost in Boston?',
+    question: 'What does fireplace repair cost in Massachusetts?',
     answer:
       'Costs depend on the type and extent of repair needed — pricing varies based on the scope of work. We confirm all pricing before any work begins — no surprises. Call us for a quote.',
   },
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Fireplace Repair', description: 'Professional fireplace repair in Boston, MA. Damper repair, firebox restoration, gas fireplace service and insert installation by certified technicians.', slug: 'fireplace-repair' }),
+  serviceSchema({ name: 'Fireplace Repair', description: 'Professional fireplace repair across New England. Damper repair, firebox restoration, gas fireplace service and insert installation by certified technicians.', slug: 'fireplace-repair' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Fireplace Repair', href: '/fireplace-repair' }]),
 ];
@@ -107,7 +107,7 @@ export default function FireplaceRepairPage() {
       ))}
 
       <ServiceHero
-        title="Fireplace Repair in Boston, MA — All Types, All Brands"
+        title="Fireplace Repair Across New England — All Types, All Brands"
         subtitle="We repair all types of fireplaces — wood-burning, gas, and insert systems. If yours isn't working the way it should, or hasn't been checked in years, we can sort it out."
         breadcrumbs={[{ label: 'Fireplace Repair', href: '/fireplace-repair' }]}
         badge="Call Today & Save 10%"
@@ -188,7 +188,7 @@ export default function FireplaceRepairPage() {
               </div>
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold text-navy-950 mb-4">
-                  Fireplace Safety: What Every Boston Homeowner Should Know
+                  Fireplace Safety: What Every New England Homeowner Should Know
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
@@ -220,7 +220,7 @@ export default function FireplaceRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Customer Reviews</h2>
-            <p className="text-gray-600">What Boston homeowners say about our fireplace repair service.</p>
+            <p className="text-gray-600">What New England homeowners say about our fireplace repair service.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -235,7 +235,7 @@ export default function FireplaceRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Fireplace Repair FAQ</h2>
-            <p className="text-gray-600">Common questions about fireplace repair and service in Boston.</p>
+            <p className="text-gray-600">Common questions about fireplace repair and service across New England.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -271,7 +271,7 @@ export default function FireplaceRepairPage() {
 
       <CTABanner
         heading="Restore Your Fireplace to Perfect Condition"
-        subtext="Don't let a malfunctioning fireplace spoil your winter. Above Services provides expert fireplace repair throughout Greater Boston. Call today for same-day service."
+        subtext="Don't let a malfunctioning fireplace spoil your winter. Above Services provides expert fireplace repair throughout New England. Call today for same-day service."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

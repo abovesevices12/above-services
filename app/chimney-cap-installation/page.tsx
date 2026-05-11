@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Cap Installation Boston MA | Above Services | (781) 921-6228',
   description:
-    'Chimney cap installation & replacement in Boston, MA. Prevent water damage, animal intrusion & downdrafts. Stainless steel caps installed same day. Call (781) 921-6228.',
+    'Chimney cap installation & replacement across New England. Prevent water damage, animal intrusion & downdrafts. Stainless steel caps installed same day. Call (781) 921-6228.',
   keywords: [
     'chimney cap installation Boston MA',
     'chimney cap replacement Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chimney Cap Installation Boston MA | Above Services | (781) 921-6228',
     description:
-      'Chimney cap installation & replacement in Boston, MA. Prevent water damage, animal intrusion & downdrafts. Stainless steel caps installed same day.',
+      'Chimney cap installation & replacement across New England. Prevent water damage, animal intrusion & downdrafts. Stainless steel caps installed same day.',
     url: 'https://www.aboveservicesboston.com/chimney-cap-installation',
   },
 };
@@ -64,12 +64,12 @@ const faqs = [
   {
     question: 'How long do chimney caps last?',
     answer:
-      'The lifespan depends heavily on material. Galvanized steel caps typically last 5–10 years before rust becomes a problem. Aluminum caps last 10–15 years. Stainless steel caps — which we install on every job — are rated for 20+ years and often outlast the chimneys they sit on. We recommend stainless steel for all Boston homes given our harsh coastal climate.',
+      'The lifespan depends heavily on material. Galvanized steel caps typically last 5–10 years before rust becomes a problem. Aluminum caps last 10–15 years. Stainless steel caps — which we install on every job — are rated for 20+ years and often outlast the chimneys they sit on. We recommend stainless steel for all New England homes given our harsh coastal climate.',
   },
   {
     question: 'What cap material is best?',
     answer:
-      'For Boston\'s climate, stainless steel (specifically 304 or 316 grade) is the clear best choice. It resists rust and corrosion from both rain and the acidic combustion byproducts vented through the flue. Copper caps are also excellent and add a classic look to historic homes, though they cost significantly more. We do not install galvanized or aluminum caps due to their shorter lifespan.',
+      'For New England\'s climate, stainless steel (specifically 304 or 316 grade) is the clear best choice. It resists rust and corrosion from both rain and the acidic combustion byproducts vented through the flue. Copper caps are also excellent and add a classic look to historic homes, though they cost significantly more. We do not install galvanized or aluminum caps due to their shorter lifespan.',
   },
   {
     question: 'Can a chimney cap improve draft?',
@@ -94,7 +94,7 @@ const faqs = [
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Chimney Cap Installation', description: 'Professional chimney cap installation and replacement in Boston, MA. Stainless steel caps prevent water damage, animal intrusion, and downdrafts.', slug: 'chimney-cap-installation' }),
+  serviceSchema({ name: 'Chimney Cap Installation', description: 'Professional chimney cap installation and replacement across New England. Stainless steel caps prevent water damage, animal intrusion, and downdrafts.', slug: 'chimney-cap-installation' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Chimney Cap Installation', href: '/chimney-cap-installation' }]),
 ];
@@ -107,7 +107,7 @@ export default function ChimneyCapInstallationPage() {
       ))}
 
       <ServiceHero
-        title="Chimney Cap Installation in Boston, MA"
+        title="Chimney Cap Installation Across New England"
         subtitle="A chimney cap is the simplest, cheapest protection you can add. If yours is missing, rusted out, or your chimney never had one — we can usually install a new stainless steel cap the same day you call."
         breadcrumbs={[{ label: 'Chimney Cap Installation', href: '/chimney-cap-installation' }]}
         badge="Caps Installed Same Day"
@@ -119,7 +119,7 @@ export default function ChimneyCapInstallationPage() {
           <div className="text-center mb-12">
             <span className="text-amber-500 font-semibold text-sm uppercase tracking-wider">Protection Your Chimney Needs</span>
             <h2 className="text-3xl md:text-4xl font-bold text-navy-950 mt-2 mb-4">
-              Why Every Boston Chimney Needs a Cap
+              Why Every New England Chimney Needs a Cap
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               A chimney cap is a small investment that prevents big problems. Here are four reasons every chimney needs one — whether you use the fireplace every night or once a year.
@@ -161,7 +161,7 @@ export default function ChimneyCapInstallationPage() {
                   </svg>
                 ),
                 title: 'Prevents Sparks & Embers',
-                desc: 'The mesh screen on a chimney cap contains sparks and burning embers from wood fires, preventing them from landing on your roof or neighboring structures. This is especially important in older Boston neighborhoods where homes are close together.',
+                desc: 'The mesh screen on a chimney cap contains sparks and burning embers from wood fires, preventing them from landing on your roof or neighboring structures. This is especially important in older New England neighborhoods where homes are close together.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:border-amber-200 hover:shadow-lg transition-all duration-300">
@@ -203,7 +203,7 @@ export default function ChimneyCapInstallationPage() {
               {
                 title: 'Top-Mount Damper Cap',
                 price: 'Call for a quote',
-                desc: 'A top-mount damper replaces both your throat damper and chimney cap in one unit. It creates a fully airtight seal at the top of the chimney when the fireplace is not in use — eliminating cold air infiltration and dramatically reducing energy loss. Highly recommended for Boston winters.',
+                desc: 'A top-mount damper replaces both your throat damper and chimney cap in one unit. It creates a fully airtight seal at the top of the chimney when the fireplace is not in use — eliminating cold air infiltration and dramatically reducing energy loss. Highly recommended for New England winters.',
               },
               {
                 title: 'Draft-Increasing Cap',
@@ -293,7 +293,7 @@ export default function ChimneyCapInstallationPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">What Our Customers Say</h2>
-            <p className="text-gray-600">Real reviews from Boston homeowners about our chimney cap service.</p>
+            <p className="text-gray-600">Real reviews from New England homeowners about our chimney cap service.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -308,7 +308,7 @@ export default function ChimneyCapInstallationPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Chimney Cap FAQ</h2>
-            <p className="text-gray-600">Common questions about chimney cap installation in Boston, MA.</p>
+            <p className="text-gray-600">Common questions about chimney cap installation in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -344,7 +344,7 @@ export default function ChimneyCapInstallationPage() {
 
       <CTABanner
         heading="Get Your Chimney Cap Installed Today"
-        subtext="Same-day cap installation throughout Greater Boston. Stainless steel, built to last. Call Above Services now."
+        subtext="Same-day cap installation across New England. Stainless steel, built to last. Call Above Services now."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

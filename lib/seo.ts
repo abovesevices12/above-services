@@ -82,7 +82,7 @@ export function serviceSchema({
         '@type': 'Offer',
         price,
         priceCurrency: 'USD',
-        description: priceNote ?? `Starting price for ${name} in Boston, MA`,
+        description: priceNote ?? `Starting price for ${name} in Massachusetts`,
       },
     }),
   };
@@ -94,7 +94,7 @@ export const localBusinessSchema = {
   '@id': `${BASE_URL}/#business`,
   name: BUSINESS_NAME,
   description:
-    "Boston's premier chimney specialist. Expert chimney cleaning, inspection, repair, rebuilds, liner installation, cap installation, crown repair, smoke chamber repair, and fireplace service. CSIA-certified since 2013.",
+    "New England's premier chimney specialist. Expert chimney cleaning, inspection, repair, rebuilds, liner installation, cap installation, crown repair, smoke chamber repair, and fireplace service across Massachusetts and Southern NH. CSIA-certified since 2013.",
   url: BASE_URL,
   telephone: PHONE,
   email: 'aboveservicesllc@gmail.com',
@@ -171,7 +171,7 @@ export const websiteSchema = {
   '@id': `${BASE_URL}/#website`,
   name: BUSINESS_NAME,
   url: BASE_URL,
-  description: "Boston's premier chimney specialist serving Greater Boston since 2013.",
+  description: "New England's premier chimney specialist serving Massachusetts and Southern NH since 2013.",
   publisher: { '@id': `${BASE_URL}/#business` },
 };
 
@@ -224,7 +224,7 @@ export const organizationSchema = {
     '@type': 'ContactPoint',
     telephone: PHONE,
     contactType: 'customer service',
-    areaServed: 'Greater Boston, MA',
+    areaServed: 'Massachusetts and Southern New Hampshire',
     availableLanguage: 'English',
     contactOption: 'TollFree',
   },

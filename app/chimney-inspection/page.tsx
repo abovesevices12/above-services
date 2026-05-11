@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Inspection Boston MA | CSIA-Certified | Above Services | (781) 921-6228',
   description:
-    'CSIA-certified chimney inspections in Boston, MA. Level 1, 2 & 3 inspections with full camera scan. Serving Cambridge, Brookline, Newton & Greater Boston. Real estate inspections available. Call (781) 921-6228.',
+    'CSIA-certified chimney inspections across New England. Level 1, 2 & 3 inspections with full camera scan. Serving Massachusetts & Southern NH. Real estate inspections available. Call (781) 921-6228.',
   keywords: [
     'chimney inspection Boston MA',
     'CSIA chimney inspection Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chimney Inspection Boston MA | CSIA-Certified | Above Services | (781) 921-6228',
     description:
-      'CSIA-certified chimney inspections in Boston, MA. Level 1, 2 & 3 inspections. Real estate, insurance & annual safety inspections.',
+      'CSIA-certified chimney inspections across New England. Level 1, 2 & 3 inspections. Real estate, insurance & annual safety inspections.',
     url: 'https://www.aboveservicesboston.com/chimney-inspection',
   },
 };
@@ -94,7 +94,7 @@ const faqs = [
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Chimney Inspection', description: 'CSIA-certified chimney inspections in Boston, MA. Level 1, 2 & 3 inspections including video camera scan for real estate and safety inspections.', slug: 'chimney-inspection' }),
+  serviceSchema({ name: 'Chimney Inspection', description: 'CSIA-certified chimney inspections across New England. Level 1, 2 & 3 inspections including video camera scan for real estate and safety inspections.', slug: 'chimney-inspection' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Chimney Inspection', href: '/chimney-inspection' }]),
 ];
@@ -107,7 +107,7 @@ export default function ChimneyInspectionPage() {
       ))}
 
       <ServiceHero
-        title="Chimney Inspections in Boston, MA"
+        title="Chimney Inspections Across New England"
         subtitle="Whether it's a routine annual check, a pre-sale inspection, or a post-storm assessment — we give you a clear written report with photos. No vague notes on a clipboard."
         breadcrumbs={[{ label: 'Chimney Inspection', href: '/chimney-inspection' }]}
         badge="Level 1 Inspection Included with Every Cleaning"
@@ -273,7 +273,7 @@ export default function ChimneyInspectionPage() {
                 What's in Your Inspection Report
               </h2>
               <p className="text-gray-600 leading-relaxed mb-8">
-                Our reports are written to be understood — not just filed away. They're accepted by real estate attorneys, insurance companies, and building inspectors throughout Greater Boston.
+                Our reports are written to be understood — not just filed away. They're accepted by real estate attorneys, insurance companies, and building inspectors throughout New England.
               </p>
               <ul className="space-y-5">
                 {[
@@ -318,7 +318,7 @@ export default function ChimneyInspectionPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">What Our Customers Say</h2>
-            <p className="text-gray-600">Real reviews from Boston homeowners about our chimney inspection service.</p>
+            <p className="text-gray-600">Real reviews from New England homeowners about our chimney inspection service.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -333,7 +333,7 @@ export default function ChimneyInspectionPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Chimney Inspection FAQ</h2>
-            <p className="text-gray-600">Common questions about chimney inspections in Boston, MA.</p>
+            <p className="text-gray-600">Common questions about chimney inspections in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -369,7 +369,7 @@ export default function ChimneyInspectionPage() {
 
       <CTABanner
         heading="Call Above Services — Book Your Inspection"
-        subtext="Level 1 Inspection Included with every cleaning. Level 2 for real estate and post-incident. CSIA-certified. Call now and save 10% — same-day availability across Greater Boston."
+        subtext="Level 1 Inspection Included with every cleaning. Level 2 for real estate and post-incident. CSIA-certified. Call now and save 10% — same-day availability across New England."
         primaryButtonText="Call Now For 10% Off"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

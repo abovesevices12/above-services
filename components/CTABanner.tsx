@@ -15,7 +15,7 @@ interface CTABannerProps {
 
 export default function CTABanner({
   heading = 'Call Above Services Now',
-  subtext = 'Book today and save 10% on your chimney service. Same-day availability in Greater Boston — spots fill fast.',
+  subtext = 'Book today and save 10% on your chimney service. Same-day availability across New England — spots fill fast.',
   primaryButtonText = 'Call Now — Save 10%',
   primaryButtonHref = 'tel:+17819216228',
   secondaryButtonText = 'Book Today & Save 10%',
@@ -96,7 +96,7 @@ export default function CTABanner({
         </div>
 
         <p className="text-slate-500 text-sm mt-6">
-          Licensed & Insured · CSIA Certified · Serving Greater Boston & Southern NH Since 2013
+          Licensed & Insured · CSIA Certified · Serving New England Since 2013
         </p>
       </div>
     </section>

@@ -27,11 +27,11 @@ export const blogPosts: BlogPost[] = [
     slug: 'how-often-chimney-cleaning',
     title: 'How Often Should You Clean Your Chimney? A Boston Guide',
     metaTitle: 'How Often Should You Clean Your Chimney? | Above Services Boston',
-    metaDescription: "The NFPA recommends annual chimney cleaning — but the real frequency depends on how you use your fireplace. Here's what Boston homeowners need to know about creosote and cleaning schedules.",
+    metaDescription: "The NFPA recommends annual chimney cleaning — but the real frequency depends on how you use your fireplace. Here's what New England homeowners need to know about creosote and cleaning schedules.",
     category: 'Maintenance',
     publishDate: 'September 15, 2024',
     readTime: '5 min read',
-    excerpt: "The NFPA says annually — but the right frequency depends on how often you burn, what you burn, and how old your flue is. Here's what Boston homeowners should know.",
+    excerpt: "The NFPA says annually — but the right frequency depends on how often you burn, what you burn, and how old your flue is. Here's what New England homeowners should know.",
     keywords: ['chimney cleaning Boston', 'how often clean chimney', 'annual chimney cleaning MA', 'chimney sweep Boston', 'creosote removal Boston'],
     relatedPosts: ['chimney-inspection-levels-explained', 'chimney-liner-types-explained', 'fireplace-safety-guide-boston'],
     relatedServices: [
@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'callout',
-        text: "The NFPA recommends chimneys be inspected at least once a year and cleaned when necessary. If you're burning regularly through a Boston winter, cleaning is almost always necessary.",
+        text: "The NFPA recommends chimneys be inspected at least once a year and cleaned when necessary. If you're burning regularly through a New England winter, cleaning is almost always necessary.",
       },
       { type: 'h2', text: 'What Actually Affects How Often You Need It' },
       { type: 'h3', text: 'How Frequently You Burn' },
@@ -71,22 +71,22 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'What Happens When You Skip Cleanings' },
       {
         type: 'p',
-        text: "Beyond the fire risk, heavy creosote restricts airflow in the flue. That restriction causes drafting problems — smoke backs up into the room instead of drawing up and out. We see this regularly in older Boston homes, particularly colonials in Newton and Brookline and triple-deckers in Dorchester and Somerville, where the original flue design was already marginal for modern use.",
+        text: "Beyond the fire risk, heavy creosote restricts airflow in the flue. That restriction causes drafting problems — smoke backs up into the room instead of drawing up and out. We see this regularly in older New England homes, particularly colonials in Newton and Brookline and triple-deckers in Dorchester and Somerville, where the original flue design was already marginal for modern use.",
       },
       { type: 'h2', text: 'What a [[Chimney Cleaning|/chimney-cleaning]] Includes' },
       {
         type: 'p',
         text: "A standard cleaning involves brushing the flue with rotary or hand brushes to remove creosote, followed by a Level 1 inspection of the firebox, damper, smoke shelf, visible liner sections, and chimney cap. We photograph what we find and walk you through it before leaving. The job takes about an hour. We use drop cloths and a HEPA vacuum — you shouldn't be cleaning soot off your furniture afterward.",
       },
-      { type: 'h2', text: 'A Note for Older Boston Homes' },
+      { type: 'h2', text: 'A Note for Older New England Homes' },
       {
         type: 'p',
-        text: "Boston's older housing stock — Victorians in Jamaica Plain, colonials in Arlington, triple-deckers throughout the metro area — frequently has original clay tile liner systems that are 50 to 80 years old. Clay tile is more prone to cracking than modern stainless steel liners, and the only way to catch deterioration before it becomes a safety issue is annual inspection. Boston winters also hammer exterior chimney components. The freeze-thaw cycle opens mortar joints, cracks crowns, and spalls brick — none of which is visible from inside the house.",
+        text: "New England's older housing stock — Victorians in Jamaica Plain, colonials in Arlington, triple-deckers throughout Greater Boston — frequently has original clay tile liner systems that are 50 to 80 years old. Clay tile is more prone to cracking than modern stainless steel liners, and the only way to catch deterioration before it becomes a safety issue is annual inspection. New England winters also hammer exterior chimney components. The freeze-thaw cycle opens mortar joints, cracks crowns, and spalls brick — none of which is visible from inside the house.",
       },
       {
         type: 'cta',
         heading: 'Book Your Annual Cleaning',
-        body: "Most Boston homeowners schedule in September or October — before they need the fireplace. We're usually booked out a few weeks during peak season, so don't wait.",
+        body: "Most New England homeowners schedule in September or October — before they need the fireplace. We're usually booked out a few weeks during peak season, so don't wait.",
         btnText: 'Schedule a Cleaning',
         href: '/chimney-cleaning',
       },
@@ -95,13 +95,13 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: 'common-chimney-repair-problems-boston',
-    title: '7 Chimney Problems We See in Boston Homes Every Year',
+    title: '7 Chimney Problems We See in New England Homes Every Year',
     metaTitle: '7 Common Chimney Repair Problems in Boston | Above Services',
-    metaDescription: "Boston winters are hard on chimneys. Here are the seven repair issues our crew sees most often across Greater Boston — and what each one means for your home.",
+    metaDescription: "New England winters are hard on chimneys. Here are the seven repair issues our crew sees most often across Massachusetts and Southern NH — and what each one means for your home.",
     category: 'Repairs',
     publishDate: 'October 1, 2024',
     readTime: '6 min read',
-    excerpt: "From spalling brick to cracked liners, Boston winters create a predictable set of chimney problems. Here's what to watch for — and when each one needs attention.",
+    excerpt: "From spalling brick to cracked liners, New England winters create a predictable set of chimney problems. Here's what to watch for — and when each one needs attention.",
     keywords: ['chimney repair Boston', 'chimney problems Boston MA', 'spalling brick chimney', 'chimney mortar repair Boston', 'chimney flashing repair'],
     relatedPosts: ['chimney-inspection-levels-explained', 'when-does-chimney-need-rebuilding', 'chimney-leaking-causes-fixes'],
     relatedServices: [
@@ -111,12 +111,12 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'p',
-        text: "After a Boston winter, we do a lot of spring inspections. The same problems come up year after year — some minor, some urgent. Here are the seven we see most often, and what they mean.",
+        text: "After a New England winter, we do a lot of spring inspections. The same problems come up year after year — some minor, some urgent. Here are the seven we see most often, and what they mean.",
       },
       { type: 'h2', text: '1. Spalling Brick' },
       {
         type: 'p',
-        text: "Spalling is when the face of a brick breaks off and falls away. It's caused by water that's absorbed into the masonry, frozen, and expanded — a cycle that happens dozens of times in a Boston winter. You'll notice it as brick faces on the ground near the house, or rough, pitted surfaces when you look at the chimney from the roof.",
+        text: "Spalling is when the face of a brick breaks off and falls away. It's caused by water that's absorbed into the masonry, frozen, and expanded — a cycle that happens dozens of times in a New England winter. You'll notice it as brick faces on the ground near the house, or rough, pitted surfaces when you look at the chimney from the roof.",
       },
       {
         type: 'p',
@@ -130,7 +130,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: '3. Cracked Chimney Crown' },
       {
         type: 'p',
-        text: "The crown is the concrete or mortar cap covering the top of the chimney around the flue opening. It's designed to shed water away from the masonry. In Boston, freeze-thaw cycles open small cracks in crowns every year. Surface cracks in an otherwise solid crown can be sealed with a penetrating sealer. A crown that's broken into sections needs to be rebuilt.",
+        text: "The crown is the concrete or mortar cap covering the top of the chimney around the flue opening. It's designed to shed water away from the masonry. In New England, freeze-thaw cycles open small cracks in crowns every year. Surface cracks in an otherwise solid crown can be sealed with a penetrating sealer. A crown that's broken into sections needs to be rebuilt.",
       },
       {
         type: 'callout',
@@ -168,9 +168,9 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: 'when-does-chimney-need-rebuilding',
-    title: 'When Does a Chimney Need to Be Rebuilt? Signs Boston Homeowners Should Know',
+    title: 'When Does a Chimney Need to Be Rebuilt? Signs New England Homeowners Should Know',
     metaTitle: 'When Does a Chimney Need to Be Rebuilt? | Above Services Boston',
-    metaDescription: "Not every chimney problem needs a rebuild — but some do. Here's how to tell when you're past repairs and what a chimney rebuild actually involves in Greater Boston.",
+    metaDescription: "Not every chimney problem needs a rebuild — but some do. Here's how to tell when you're past repairs and what a chimney rebuild actually involves in New England.",
     category: 'Repairs',
     publishDate: 'October 15, 2024',
     readTime: '5 min read',
@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h3', text: 'Visible Structural Lean' },
       {
         type: 'p',
-        text: "A chimney that's visibly leaning away from the house has a foundation or structural problem that patching won't fix. This happens in older Boston homes — Victorians in Jamaica Plain, brick colonials in Newton and Waltham — where the chimney was built on a separate footing that's settled differently from the main structure. Once a chimney is leaning, it needs to come down. There's no repair for a structural lean.",
+        text: "A chimney that's visibly leaning away from the house has a foundation or structural problem that patching won't fix. This happens in older New England homes — Victorians in Jamaica Plain, brick colonials in Newton and Waltham — where the chimney was built on a separate footing that's settled differently from the main structure. Once a chimney is leaning, it needs to come down. There's no repair for a structural lean.",
       },
       { type: 'h3', text: 'Spalling Throughout the Upper Section' },
       {
@@ -215,12 +215,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'p',
-        text: "A full teardown is necessary when there's structural damage below the roofline: visible deterioration in the section running through the house, a failed foundation footing, or collapse of interior flue sections. Full teardowns are less common, but we do see them in very old Boston triple-deckers and rowhouses where the chimney predates current building codes.",
+        text: "A full teardown is necessary when there's structural damage below the roofline: visible deterioration in the section running through the house, a failed foundation footing, or collapse of interior flue sections. Full teardowns are less common, but we do see them in very old New England triple-deckers and rowhouses where the chimney predates current building codes.",
       },
       { type: 'h2', text: 'What a Rebuild Actually Involves' },
       {
         type: 'p',
-        text: "A [[chimney rebuild|/chimney-rebuilds]] starts with an assessment of what needs to come down. We demo the affected section, source brick that matches the original as closely as possible — Boston has a lot of distinctive old brick, so this matters aesthetically. We rebuild with proper mortar ratios for exterior masonry, pull the necessary permits in Boston and surrounding towns, and finish with a new crown, waterproofing treatment, and cap installation. Most partial rebuilds take 2–4 days depending on height and access.",
+        text: "A [[chimney rebuild|/chimney-rebuilds]] starts with an assessment of what needs to come down. We demo the affected section, source brick that matches the original as closely as possible — New England has a lot of distinctive old brick, so this matters aesthetically. We rebuild with proper mortar ratios for exterior masonry, pull the necessary permits in Massachusetts and Southern NH, and finish with a new crown, waterproofing treatment, and cap installation. Most partial rebuilds take 2–4 days depending on height and access.",
       },
       {
         type: 'callout',
@@ -240,7 +240,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'chimney-liner-types-explained',
     title: 'Chimney Liner Types: Clay Tile, Stainless Steel, and Cast-in-Place Explained',
     metaTitle: 'Chimney Liner Types Explained: Clay, Stainless, Cast-in-Place | Above Services Boston',
-    metaDescription: "Replacing your chimney liner? Here's how clay tile, stainless steel, and cast-in-place liners compare — and how to pick the right one for your Boston home.",
+    metaDescription: "Replacing your chimney liner? Here's how clay tile, stainless steel, and cast-in-place liners compare — and how to pick the right one for your New England home.",
     category: 'Education',
     publishDate: 'November 1, 2024',
     readTime: '6 min read',
@@ -259,7 +259,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'Clay Tile Liners' },
       {
         type: 'p',
-        text: "Clay tile is the original liner material and what you'll find in most Boston homes built before 1990. Rectangular terra cotta tiles, stacked and mortared together, form the flue channel. Clay tile is durable under normal use and has been code-compliant for decades. The problem is that it's brittle. Thermal shock — from rapid temperature changes, especially after a chimney fire — can crack the tiles. Age and moisture also take a toll. Inspecting a clay tile liner requires a video camera because you can't see cracks from the firebox.",
+        text: "Clay tile is the original liner material and what you'll find in most New England homes built before 1990. Rectangular terra cotta tiles, stacked and mortared together, form the flue channel. Clay tile is durable under normal use and has been code-compliant for decades. The problem is that it's brittle. Thermal shock — from rapid temperature changes, especially after a chimney fire — can crack the tiles. Age and moisture also take a toll. Inspecting a clay tile liner requires a video camera because you can't see cracks from the firebox.",
       },
       {
         type: 'p',
@@ -272,7 +272,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'p',
-        text: "The two grades used in chimney liners are 304 (for gas appliances) and 316Ti (for solid fuel burning — wood, coal, pellets). For wood-burning fireplaces in Boston homes, you want 316Ti stainless, which handles higher temperatures and acidic condensate from wood combustion. [[Stainless liner installation|/chimney-liner-installation]] comes with a manufacturer's warranty (typically 15–20 years), and the liner itself will outlast most other chimney components if properly maintained.",
+        text: "The two grades used in chimney liners are 304 (for gas appliances) and 316Ti (for solid fuel burning — wood, coal, pellets). For wood-burning fireplaces in New England homes, you want 316Ti stainless, which handles higher temperatures and acidic condensate from wood combustion. [[Stainless liner installation|/chimney-liner-installation]] comes with a manufacturer's warranty (typically 15–20 years), and the liner itself will outlast most other chimney components if properly maintained.",
       },
       { type: 'h2', text: 'Cast-in-Place Liners' },
       {
@@ -312,11 +312,11 @@ export const blogPosts: BlogPost[] = [
     slug: 'chimney-cap-importance',
     title: "Why Your Chimney Needs a Cap — And What Happens Without One",
     metaTitle: 'Why Every Chimney Needs a Cap | Above Services Boston',
-    metaDescription: "A chimney cap is a small investment with outsized returns. Here's what it does, what happens without one, and why Boston homes are particularly vulnerable.",
+    metaDescription: "A chimney cap is a small investment with outsized returns. Here's what it does, what happens without one, and why New England homes are particularly vulnerable.",
     category: 'Maintenance',
     publishDate: 'November 15, 2024',
     readTime: '4 min read',
-    excerpt: "A stainless steel chimney cap costs a few hundred dollars. Not having one can cost thousands. Here's why it matters — especially in a Boston winter.",
+    excerpt: "A stainless steel chimney cap costs a few hundred dollars. Not having one can cost thousands. Here's why it matters — especially in a New England winter.",
     keywords: ['chimney cap Boston', 'chimney cap installation MA', 'why chimney needs cap', 'chimney animal guards Boston', 'chimney cap replacement'],
     relatedPosts: ['chimney-leaking-causes-fixes', 'chimney-waterproofing-boston', 'common-chimney-repair-problems-boston'],
     relatedServices: [
@@ -332,12 +332,12 @@ export const blogPosts: BlogPost[] = [
       { type: 'h3', text: 'Keeps Water Out' },
       {
         type: 'p',
-        text: "Without a cap, every rainstorm sends water directly down the flue. In Boston, where we get roughly 45 inches of precipitation annually plus significant snow and ice, that's a lot of water going into the chimney. Water accelerates every deterioration process: it rusts the damper, degrades the mortar in the firebox, deteriorates clay tile liner sections, and contributes to spalling. A cap that costs $200–$400 is protecting a system that costs thousands to repair.",
+        text: "Without a cap, every rainstorm sends water directly down the flue. In New England, where we get roughly 45 inches of precipitation annually plus significant snow and ice, that's a lot of water going into the chimney. Water accelerates every deterioration process: it rusts the damper, degrades the mortar in the firebox, deteriorates clay tile liner sections, and contributes to spalling. A cap that costs $200–$400 is protecting a system that costs thousands to repair.",
       },
       { type: 'h3', text: 'Keeps Animals Out' },
       {
         type: 'p',
-        text: "An uncapped flue is a perfect den for birds, squirrels, and raccoons — all common in Greater Boston. Chimney swifts, in particular, are federally protected. Once they nest, you legally cannot disturb the nest until the birds leave on their own. Beyond the inconvenience, nesting material inside the flue is a fire hazard and can block the flue entirely. We see this regularly in Cambridge and Somerville, where older housing stock frequently has uncapped or deteriorated caps.",
+        text: "An uncapped flue is a perfect den for birds, squirrels, and raccoons — all common across New England. Chimney swifts, in particular, are federally protected. Once they nest, you legally cannot disturb the nest until the birds leave on their own. Beyond the inconvenience, nesting material inside the flue is a fire hazard and can block the flue entirely. We see this regularly in Cambridge and Somerville, where older housing stock frequently has uncapped or deteriorated caps.",
       },
       { type: 'h3', text: 'Acts as a Spark Arrestor' },
       {
@@ -352,7 +352,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'Cap Types and Lifespans' },
       {
         type: 'p',
-        text: "Standard galvanized steel caps are the most common and least expensive. In Boston's climate, they typically last 10–15 years before rusting through. Stainless steel caps cost a bit more but last 20+ years — worth the difference in a coastal, high-precipitation environment. Multi-flue caps cover the entire chimney crown and offer better protection for chimneys with multiple flues. We recommend stainless for almost every [[chimney cap installation|/chimney-cap-installation]] we do in Greater Boston.",
+        text: "Standard galvanized steel caps are the most common and least expensive. In New England's climate, they typically last 10–15 years before rusting through. Stainless steel caps cost a bit more but last 20+ years — worth the difference in a coastal, high-precipitation environment. Multi-flue caps cover the entire chimney crown and offer better protection for chimneys with multiple flues. We recommend stainless for almost every [[chimney cap installation|/chimney-cap-installation]] we do across New England.",
       },
       {
         type: 'callout',
@@ -398,7 +398,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h3', text: 'Porous or Unlined Surfaces' },
       {
         type: 'p',
-        text: "In older Boston homes, smoke chambers were often left unlined — raw brick or mortar, not smooth. Rough surfaces create turbulence that disrupts the gas flow, contributing to smoke rollback. They're also porous, meaning combustion gases (including carbon monoxide) can seep through the walls into the house structure. The repair for this is parging: applying a smooth layer of refractory mortar over the chamber walls to create an airtight, smooth surface.",
+        text: "In older New England homes, smoke chambers were often left unlined — raw brick or mortar, not smooth. Rough surfaces create turbulence that disrupts the gas flow, contributing to smoke rollback. They're also porous, meaning combustion gases (including carbon monoxide) can seep through the walls into the house structure. The repair for this is parging: applying a smooth layer of refractory mortar over the chamber walls to create an airtight, smooth surface.",
       },
       { type: 'h3', text: 'Corbeling Cracks' },
       {
@@ -452,7 +452,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'p',
-        text: "Smoke backing into the room is the most common fireplace complaint we hear, especially in January and February when Boston homeowners are using their fireplaces daily. Sometimes it's a simple fix. Sometimes it's a symptom of something more serious. Here's how to work through the possible causes.",
+        text: "Smoke backing into the room is the most common fireplace complaint we hear, especially in January and February when New England homeowners are using their fireplaces daily. Sometimes it's a simple fix. Sometimes it's a symptom of something more serious. Here's how to work through the possible causes.",
       },
       { type: 'h2', text: '1. Cold Flue' },
       {
@@ -476,7 +476,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: '4. Oversized Firebox Opening' },
       {
         type: 'p',
-        text: "There's a ratio relationship between the size of the firebox opening and the cross-sectional area of the flue. When the opening is too large relative to the flue — a common issue in older Boston homes with large original fireplaces — the flue can't handle the volume of combustion gases and smoke spills out. Solutions include raising the firebox floor, installing a smoke guard above the opening, or resizing the opening. This requires an assessment to understand the specific dimensions involved.",
+        text: "There's a ratio relationship between the size of the firebox opening and the cross-sectional area of the flue. When the opening is too large relative to the flue — a common issue in older New England homes with large original fireplaces — the flue can't handle the volume of combustion gases and smoke spills out. Solutions include raising the firebox floor, installing a smoke guard above the opening, or resizing the opening. This requires an assessment to understand the specific dimensions involved.",
       },
       { type: 'h2', text: '5. Smoke Chamber or Damper Issues' },
       {
@@ -506,7 +506,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'chimney-inspection-levels-explained',
     title: "Chimney Inspection Levels: What's a Level 1, 2, and 3?",
     metaTitle: 'Chimney Inspection Levels 1, 2, and 3 Explained | Above Services Boston',
-    metaDescription: 'NFPA 211 defines three levels of chimney inspection. Here\'s what each one covers, when you need which level, and what to expect from the inspection process in Greater Boston.',
+    metaDescription: 'NFPA 211 defines three levels of chimney inspection. Here\'s what each one covers, when you need which level, and what to expect from the inspection process in New England.',
     category: 'Education',
     publishDate: 'February 1, 2025',
     readTime: '6 min read',
@@ -538,11 +538,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'p',
-        text: "In practice, Level 2 is the right call for: any home purchase or sale in Greater Boston (real estate attorneys often require it), any chimney going back into service after extended non-use, and any chimney more than 20 years old that has never had a camera inspection.",
+        text: "In practice, Level 2 is the right call for: any home purchase or sale in New England (real estate attorneys often require it), any chimney going back into service after extended non-use, and any chimney more than 20 years old that has never had a camera inspection.",
       },
       {
         type: 'callout',
-        text: "If you're buying a home in Boston, Cambridge, Brookline, Newton, or anywhere in Greater Boston — get a Level 2 chimney inspection. A clay tile liner crack that costs $3,000–$8,000 to fix won't show up without a camera.",
+        text: "If you're buying a home in Boston, Cambridge, Brookline, Newton, or anywhere in New England — get a Level 2 chimney inspection. A clay tile liner crack that costs $3,000–$8,000 to fix won't show up without a camera.",
       },
       { type: 'h2', text: 'Level 3: Destructive Inspection' },
       {
@@ -567,7 +567,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'What You Get After the Inspection' },
       {
         type: 'p',
-        text: "Our inspection report includes written findings for each component evaluated, photographs of any issues found, and a clear explanation of what needs to be addressed. We walk you through the findings before we leave. If you need a formal written report for a real estate transaction or insurance claim, we provide that as part of the [[chimney inspection|/chimney-inspection]] service — accepted by real estate attorneys, insurance companies, and building inspectors across Greater Boston.",
+        text: "Our inspection report includes written findings for each component evaluated, photographs of any issues found, and a clear explanation of what needs to be addressed. We walk you through the findings before we leave. If you need a formal written report for a real estate transaction or insurance claim, we provide that as part of the [[chimney inspection|/chimney-inspection]] service — accepted by real estate attorneys, insurance companies, and building inspectors across New England.",
       },
       {
         type: 'cta',
@@ -608,7 +608,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: '2. Cracked Chimney Crown' },
       {
         type: 'p',
-        text: "The crown is the concrete slab at the top of the chimney that covers the masonry around the flue opening. It's designed to slope away from the flue so water runs off rather than into the chimney. When the crown cracks — which happens to most Boston chimneys eventually given the freeze-thaw cycle — water enters the chimney structure directly, running down between the liner and the masonry. A [[chimney crown repair|/chimney-crown-repair]] seals the crown with a penetrating sealer or, for more severe damage, rebuilds it entirely.",
+        text: "The crown is the concrete slab at the top of the chimney that covers the masonry around the flue opening. It's designed to slope away from the flue so water runs off rather than into the chimney. When the crown cracks — which happens to most New England chimneys eventually given the freeze-thaw cycle — water enters the chimney structure directly, running down between the liner and the masonry. A [[chimney crown repair|/chimney-crown-repair]] seals the crown with a penetrating sealer or, for more severe damage, rebuilds it entirely.",
       },
       { type: 'h2', text: '3. Failed Flashing' },
       {
@@ -618,7 +618,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: '4. Porous or Deteriorated Masonry' },
       {
         type: 'p',
-        text: "Brick is naturally porous. New, well-mortared brick with a properly sloped crown sheds most of the water that hits it. But brick that's 50+ years old, with weathered surfaces and softened mortar joints, absorbs a significant percentage of each rainfall. In a Boston winter, that absorbed water freezes, expands, and opens the brick further — a cycle that accelerates over time. [[Chimney waterproofing|/blog/chimney-waterproofing-boston]] with a vapor-permeable sealant addresses this by reducing water absorption without trapping moisture already in the masonry.",
+        text: "Brick is naturally porous. New, well-mortared brick with a properly sloped crown sheds most of the water that hits it. But brick that's 50+ years old, with weathered surfaces and softened mortar joints, absorbs a significant percentage of each rainfall. In a New England winter, that absorbed water freezes, expands, and opens the brick further — a cycle that accelerates over time. [[Chimney waterproofing|/blog/chimney-waterproofing-boston]] with a vapor-permeable sealant addresses this by reducing water absorption without trapping moisture already in the masonry.",
       },
       { type: 'h2', text: '5. Condensation from an Oversized Liner' },
       {
@@ -641,13 +641,13 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: 'chimney-waterproofing-boston',
-    title: "Chimney Waterproofing in Boston: Why the Freeze-Thaw Cycle Makes It Essential",
+    title: "Chimney Waterproofing in New England: Why the Freeze-Thaw Cycle Makes It Essential",
     metaTitle: 'Chimney Waterproofing Boston MA | Above Services',
-    metaDescription: "Boston's winters put masonry chimneys through hundreds of freeze-thaw cycles every year. Here's how chimney waterproofing works and why it's worth doing.",
+    metaDescription: "New England's winters put masonry chimneys through hundreds of freeze-thaw cycles every year. Here's how chimney waterproofing works and why it's worth doing.",
     category: 'Maintenance',
     publishDate: 'March 15, 2025',
     readTime: '5 min read',
-    excerpt: "Boston's freeze-thaw cycles are uniquely hard on masonry. Waterproofing slows the damage significantly — but there's a right way and a wrong way to do it.",
+    excerpt: "New England's freeze-thaw cycles are uniquely hard on masonry. Waterproofing slows the damage significantly — but there's a right way and a wrong way to do it.",
     keywords: ['chimney waterproofing Boston', 'chimney sealing MA', 'brick chimney waterproofing', 'chimney masonry sealant', 'protect chimney Boston winter'],
     relatedPosts: ['chimney-leaking-causes-fixes', 'chimney-cap-importance', 'common-chimney-repair-problems-boston'],
     relatedServices: [
@@ -657,7 +657,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'p',
-        text: "Boston averages around 110 freeze-thaw cycles per year — days where the temperature crosses above and below 32°F. For a brick chimney, that means water absorbed into the masonry freezes and expands, then thaws and contracts, over a hundred times each year. Over a decade, that cycle opens mortar joints, pops brick faces, and works cracks progressively wider. Waterproofing doesn't stop this entirely, but it slows it significantly.",
+        text: "New England averages around 110 freeze-thaw cycles per year — days where the temperature crosses above and below 32°F. For a brick chimney, that means water absorbed into the masonry freezes and expands, then thaws and contracts, over a hundred times each year. Over a decade, that cycle opens mortar joints, pops brick faces, and works cracks progressively wider. Waterproofing doesn't stop this entirely, but it slows it significantly.",
       },
       { type: 'h2', text: 'Why Masonry Absorbs Water' },
       {
@@ -689,7 +689,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'Spring Is the Right Time' },
       {
         type: 'p',
-        text: "We recommend waterproofing after the spring inspection season — once you've had the chimney assessed, any needed [[chimney repairs|/chimney-repair]] made, and the masonry has dried out after winter. Applying sealant to wet masonry traps moisture inside; the masonry needs to be dry throughout for the product to penetrate properly. In Greater Boston, late April through June is typically ideal.",
+        text: "We recommend waterproofing after the spring inspection season — once you've had the chimney assessed, any needed [[chimney repairs|/chimney-repair]] made, and the masonry has dried out after winter. Applying sealant to wet masonry traps moisture inside; the masonry needs to be dry throughout for the product to penetrate properly. In New England, late April through June is typically ideal.",
       },
       {
         type: 'cta',
@@ -703,13 +703,13 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: 'fireplace-safety-guide-boston',
-    title: 'Fireplace Safety Guide for Boston Homeowners',
-    metaTitle: 'Fireplace Safety Guide for Boston Homeowners | Above Services',
-    metaDescription: "A wood-burning fireplace is a safety responsibility. Here's what Boston homeowners need to know about maintenance, carbon monoxide risks, creosote fires, and safe burning practices.",
+    title: 'Fireplace Safety Guide for New England Homeowners',
+    metaTitle: 'Fireplace Safety Guide for New England Homeowners | Above Services',
+    metaDescription: "A wood-burning fireplace is a safety responsibility. Here's what New England homeowners need to know about maintenance, carbon monoxide risks, creosote fires, and safe burning practices.",
     category: 'Safety',
     publishDate: 'April 1, 2025',
     readTime: '7 min read',
-    excerpt: "A working fireplace is a safety responsibility. Here's a practical guide to chimney maintenance, CO risks, chimney fire prevention, and safe burning practices for Greater Boston homes.",
+    excerpt: "A working fireplace is a safety responsibility. Here's a practical guide to chimney maintenance, CO risks, chimney fire prevention, and safe burning practices for New England homes.",
     keywords: ['fireplace safety Boston', 'chimney fire prevention', 'carbon monoxide chimney', 'safe fireplace use Boston', 'chimney safety MA'],
     relatedPosts: ['how-often-chimney-cleaning', 'chimney-inspection-levels-explained', 'fireplace-not-drawing-properly'],
     relatedServices: [
@@ -725,7 +725,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'Annual Inspection and Cleaning' },
       {
         type: 'p',
-        text: "An annual [[chimney cleaning|/chimney-cleaning]] and inspection is the single most effective thing you can do for fireplace safety. It removes creosote before it reaches dangerous accumulation levels, catches developing problems while they're still minor, and gives you documented confirmation that the system is safe to use. Schedule before heating season — most Boston chimney companies are fully booked through October, so September is the better bet.",
+        text: "An annual [[chimney cleaning|/chimney-cleaning]] and inspection is the single most effective thing you can do for fireplace safety. It removes creosote before it reaches dangerous accumulation levels, catches developing problems while they're still minor, and gives you documented confirmation that the system is safe to use. Schedule before heating season — most New England chimney companies are fully booked through October, so September is the better bet.",
       },
       { type: 'h2', text: 'Carbon Monoxide: The Invisible Risk' },
       {
@@ -745,7 +745,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h3', text: 'Burn Properly Seasoned Wood' },
       {
         type: 'p',
-        text: "Seasoned firewood has been split and dried for at least 12 months — ideally 18–24. It has a moisture content below 20%. Wet or green wood burns cooler, produces more smoke, and generates significantly more creosote. Hardwoods like oak, ash, maple, and cherry are the best choice for Boston winters: they burn hot, long, and clean.",
+        text: "Seasoned firewood has been split and dried for at least 12 months — ideally 18–24. It has a moisture content below 20%. Wet or green wood burns cooler, produces more smoke, and generates significantly more creosote. Hardwoods like oak, ash, maple, and cherry are the best choice for New England winters: they burn hot, long, and clean.",
       },
       { type: 'h3', text: 'Never Burn Trash or Treated Wood' },
       {
@@ -777,7 +777,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'cta',
         heading: 'Is Your Fireplace Ready to Use Safely?',
-        body: "An annual inspection is the foundation of fireplace safety. We serve all of Greater Boston — usually available within a few days.",
+        body: "An annual inspection is the foundation of fireplace safety. We serve all of New England — usually available within a few days.",
         btnText: 'Schedule a Safety Inspection',
         href: '/chimney-inspection',
       },

@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Smoke Chamber Repair & Parging Boston MA | Above Services | (781) 921-6228',
   description:
-    'Expert smoke chamber repair & parging in Boston, MA. Seal cracks, smooth surfaces & improve draft. Prevents CO intrusion & chimney fires. Call (781) 921-6228 today.',
+    'Expert smoke chamber repair & parging across New England. Seal cracks, smooth surfaces & improve draft. Prevents CO intrusion & chimney fires. Call (781) 921-6228 today.',
   keywords: [
     'smoke chamber repair Boston MA',
     'smoke chamber parging Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Smoke Chamber Repair & Parging Boston MA | Above Services | (781) 921-6228',
     description:
-      'Expert smoke chamber repair & parging in Boston, MA. Seal cracks, smooth surfaces & improve draft. Prevents CO intrusion & chimney fires.',
+      'Expert smoke chamber repair & parging across New England. Seal cracks, smooth surfaces & improve draft. Prevents CO intrusion & chimney fires.',
     url: 'https://www.aboveservicesboston.com/smoke-chamber-repair',
   },
 };
@@ -94,7 +94,7 @@ const faqs = [
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Smoke Chamber Repair & Parging', description: 'Expert smoke chamber repair and parging in Boston, MA. Seal cracks, smooth chamber walls, improve draft and prevent carbon monoxide intrusion.', slug: 'smoke-chamber-repair' }),
+  serviceSchema({ name: 'Smoke Chamber Repair & Parging', description: 'Expert smoke chamber repair and parging across New England. Seal cracks, smooth chamber walls, improve draft and prevent carbon monoxide intrusion.', slug: 'smoke-chamber-repair' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Smoke Chamber Repair', href: '/smoke-chamber-repair' }]),
 ];
@@ -107,7 +107,7 @@ export default function SmokeChamberRepairPage() {
       ))}
 
       <ServiceHero
-        title="Smoke Chamber Repair & Parging in Boston, MA"
+        title="Smoke Chamber Repair & Parging Across New England"
         subtitle="Most homeowners have never heard of their smoke chamber — until smoke starts backing into the room. We inspect, repair, and parge smoke chambers to stop smoke rollback, seal cracks, and keep combustion gases where they belong."
         breadcrumbs={[{ label: 'Smoke Chamber Repair', href: '/smoke-chamber-repair' }]}
         badge="Includes Free Camera Inspection"
@@ -263,7 +263,7 @@ export default function SmokeChamberRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">What Our Customers Say</h2>
-            <p className="text-gray-600">Real reviews from Boston homeowners about our smoke chamber repair work.</p>
+            <p className="text-gray-600">Real reviews from New England homeowners about our smoke chamber repair work.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -278,7 +278,7 @@ export default function SmokeChamberRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Smoke Chamber Repair FAQ</h2>
-            <p className="text-gray-600">Common questions about smoke chamber repair and parging in Boston, MA.</p>
+            <p className="text-gray-600">Common questions about smoke chamber repair and parging in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -314,7 +314,7 @@ export default function SmokeChamberRepairPage() {
 
       <CTABanner
         heading="Schedule Your Smoke Chamber Inspection Today"
-        subtext="Camera inspection included free with every smoke chamber repair. Above Services serves all of Greater Boston. Don't wait — a damaged smoke chamber is a serious safety hazard."
+        subtext="Camera inspection included free with every smoke chamber repair. Above Services serves all of New England. Don't wait — a damaged smoke chamber is a serious safety hazard."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

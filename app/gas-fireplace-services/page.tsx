@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Gas Fireplace Services Boston MA | Repair, Tune-Up & Inspection | (781) 921-6228',
   description:
-    'Professional gas fireplace repair, tune-up & annual service in Boston, MA. Ignition repair, thermocouple replacement, pilot light service & safety inspections. All brands. Call (781) 921-6228.',
+    'Professional gas fireplace repair, tune-up & annual service across New England. Ignition repair, thermocouple replacement, pilot light service & safety inspections. All brands. Call (781) 921-6228.',
   keywords: [
     'gas fireplace service Boston MA',
     'gas fireplace repair Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Gas Fireplace Services Boston MA | Above Services | (781) 921-6228',
     description:
-      'Expert gas fireplace repair, tune-up & inspection in Greater Boston. Serving Cambridge, Brookline, Newton & Southern NH. CSIA-certified. Call (781) 921-6228.',
+      'Expert gas fireplace repair, tune-up & inspection across New England. Serving Massachusetts and Southern NH. CSIA-certified. Call (781) 921-6228.',
     url: 'https://www.aboveservicesboston.com/gas-fireplace-services',
   },
 };
@@ -86,7 +86,7 @@ const faqs = [
       "Using an unserviced gas fireplace carries real risks: carbon monoxide leaks from blocked venting, gas leaks from deteriorated connections, and fire hazards from accumulated dust and debris near the burner. We strongly recommend annual service, especially if the unit hasn't been inspected in more than a year.",
   },
   {
-    question: 'How much does gas fireplace service cost in Boston?',
+    question: 'How much does gas fireplace service cost in Massachusetts?',
     answer:
       'Pricing varies based on the type of service and unit. We confirm all pricing before any work begins — no surprises. Call (781) 921-6228 for a quote or to schedule an appointment.',
   },
@@ -95,7 +95,7 @@ const faqs = [
 const schemas = [
   serviceSchema({
     name: 'Gas Fireplace Services',
-    description: 'Professional gas fireplace repair, tune-up, and annual inspection in Boston, MA. Serving Greater Boston and Southern NH.',
+    description: 'Professional gas fireplace repair, tune-up, and annual inspection across New England. Serving Massachusetts and Southern NH.',
     slug: 'gas-fireplace-services',
   }),
   faqSchema(faqs),
@@ -110,8 +110,8 @@ export default function GasFireplaceServicesPage() {
       ))}
 
       <ServiceHero
-        title="Gas Fireplace Services in Boston, MA — All Brands, All Models"
-        subtitle="Tune-ups, ignition repair, thermocouple replacement, and annual safety inspections for gas fireplaces throughout Greater Boston and Southern NH. CSIA-certified technicians."
+        title="Gas Fireplace Services Across New England — All Brands, All Models"
+        subtitle="Tune-ups, ignition repair, thermocouple replacement, and annual safety inspections for gas fireplaces throughout New England. CSIA-certified technicians."
         breadcrumbs={[{ label: 'Gas Fireplace Services', href: '/gas-fireplace-services' }]}
         badge="Call Today & Save 10%"
       />
@@ -191,7 +191,7 @@ export default function GasFireplaceServicesPage() {
               </div>
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold text-navy-950 mb-4">
-                  Gas Fireplace Safety: What Boston Homeowners Need to Know
+                  Gas Fireplace Safety: What New England Homeowners Need to Know
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
@@ -223,7 +223,7 @@ export default function GasFireplaceServicesPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Customer Reviews</h2>
-            <p className="text-gray-600">What Greater Boston homeowners say about our gas fireplace service.</p>
+            <p className="text-gray-600">What New England homeowners say about our gas fireplace service.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -238,7 +238,7 @@ export default function GasFireplaceServicesPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Gas Fireplace Service FAQ</h2>
-            <p className="text-gray-600">Common questions about gas fireplace service and repair in Boston.</p>
+            <p className="text-gray-600">Common questions about gas fireplace service and repair across New England.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -274,7 +274,7 @@ export default function GasFireplaceServicesPage() {
 
       <CTABanner
         heading="Book Your Gas Fireplace Service Today"
-        subtext="Don't wait until the first cold night to find out your gas fireplace has a problem. Above Services provides expert gas fireplace tune-ups and repair throughout Greater Boston and Southern NH."
+        subtext="Don't wait until the first cold night to find out your gas fireplace has a problem. Above Services provides expert gas fireplace tune-ups and repair throughout New England."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

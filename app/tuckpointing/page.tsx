@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Tuckpointing Boston MA | Chimney Repointing & Mortar Repair | (781) 921-6228',
   description:
-    'Professional chimney tuckpointing and repointing in Boston, MA. Restore deteriorated mortar joints, stop water infiltration, and extend chimney life. CSIA-certified masons. Call (781) 921-6228.',
+    'Professional chimney tuckpointing and repointing across New England. Restore deteriorated mortar joints, stop water infiltration, and extend chimney life. CSIA-certified masons. Call (781) 921-6228.',
   keywords: [
     'tuckpointing Boston MA',
     'chimney repointing Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Tuckpointing Boston MA | Chimney Repointing | Above Services | (781) 921-6228',
     description:
-      'Expert chimney tuckpointing and mortar repointing in Greater Boston and Southern NH. Stop water infiltration and restore your chimney\'s structural integrity. Call (781) 921-6228.',
+      'Expert chimney tuckpointing and mortar repointing across New England. Stop water infiltration and restore your chimney\'s structural integrity. Call (781) 921-6228.',
     url: 'https://www.aboveservicesboston.com/tuckpointing',
   },
 };
@@ -73,12 +73,12 @@ const faqs = [
   {
     question: 'How long does tuckpointing last?',
     answer:
-      "Quality tuckpointing with properly mixed, correctly applied mortar should last 25–30 years under normal conditions. Boston's freeze-thaw cycles can shorten this on exposed chimneys, but proper mortar mix selection (not too hard for the brick) and a waterproofing coat after repointing significantly extend the life of the repair.",
+      "Quality tuckpointing with properly mixed, correctly applied mortar should last 25–30 years under normal conditions. New England's freeze-thaw cycles can shorten this on exposed chimneys, but proper mortar mix selection (not too hard for the brick) and a waterproofing coat after repointing significantly extend the life of the repair.",
   },
   {
     question: 'Does the new mortar color match the old?',
     answer:
-      "Yes — mortar color matching is an important part of professional tuckpointing, especially on historic Boston homes. We mix custom mortar to match the existing joints as closely as possible before starting work. We always show a sample patch and get your approval before proceeding on visible areas.",
+      "Yes — mortar color matching is an important part of professional tuckpointing, especially on historic New England homes. We mix custom mortar to match the existing joints as closely as possible before starting work. We always show a sample patch and get your approval before proceeding on visible areas.",
   },
   {
     question: 'Can I wait on tuckpointing?',
@@ -86,7 +86,7 @@ const faqs = [
       "Waiting is costly. Once mortar joints fail, water enters the masonry — and every freeze-thaw cycle expands that water, widening the gap and dislodging bricks. What is a simple repointing job today can become a full chimney rebuild if left for two or three more winters. We recommend addressing deteriorated joints as soon as they are noticed.",
   },
   {
-    question: 'How much does tuckpointing cost in Boston?',
+    question: 'How much does tuckpointing cost in Massachusetts?',
     answer:
       'Cost depends on the extent of the mortar deterioration and the size of the chimney. We provide a clear, itemized quote before starting any work. Call (781) 921-6228 or book an inspection online.',
   },
@@ -95,7 +95,7 @@ const faqs = [
 const schemas = [
   serviceSchema({
     name: 'Tuckpointing',
-    description: 'Professional chimney tuckpointing and mortar repointing in Boston, MA. Restore deteriorated joints, prevent water infiltration, and extend chimney life.',
+    description: 'Professional chimney tuckpointing and mortar repointing across New England. Restore deteriorated joints, prevent water infiltration, and extend chimney life.',
     slug: 'tuckpointing',
   }),
   faqSchema(faqs),
@@ -110,7 +110,7 @@ export default function TuckpointingPage() {
       ))}
 
       <ServiceHero
-        title="Tuckpointing in Boston, MA — Expert Chimney Repointing"
+        title="Tuckpointing Across New England — Expert Chimney Repointing"
         subtitle="Deteriorated mortar joints are one of the leading causes of chimney water damage and structural failure. Our CSIA-certified masons restore your chimney's joints with color-matched mortar and lasting results."
         breadcrumbs={[{ label: 'Tuckpointing', href: '/tuckpointing' }]}
         badge="Call Today & Save 10%"
@@ -139,7 +139,7 @@ export default function TuckpointingPage() {
               },
               {
                 title: 'Color-Matched Mortar Application',
-                desc: 'New mortar is mixed to match the original joint color and texture as closely as possible — critical for historic Boston homes. We pack mortar in layers to prevent shrinkage cracking, then tool each joint to match the original profile. The result is a seamless, professional finish.',
+                desc: 'New mortar is mixed to match the original joint color and texture as closely as possible — critical for historic New England homes. We pack mortar in layers to prevent shrinkage cracking, then tool each joint to match the original profile. The result is a seamless, professional finish.',
                 icon: (
                   <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
@@ -191,16 +191,16 @@ export default function TuckpointingPage() {
               </div>
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold text-navy-950 mb-4">
-                  Why Tuckpointing Matters for Boston Chimneys
+                  Why Tuckpointing Matters for New England Chimneys
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    "Boston's 100+ freeze-thaw cycles per year crack mortar faster than almost anywhere in the US",
+                    "New England's 100+ freeze-thaw cycles per year crack mortar faster than almost anywhere in the US",
                     'Water entering through open joints expands as it freezes, widening gaps and dislodging brick',
                     'Failed mortar joints account for a significant portion of all chimney leaks in New England',
                     'Repointing a chimney costs a fraction of rebuilding one — early action saves thousands',
                     'Soft lime mortar was standard before 1940 — using modern Portland cement on old brick can cause spalling',
-                    'Historic Boston homes require historically appropriate mortar mixes to prevent brick damage',
+                    'Historic New England homes require historically appropriate mortar mixes to prevent brick damage',
                     'After repointing, waterproofing should always be applied to protect the new joints',
                     'A properly repointed chimney can add 25–30 years before the next repointing is needed',
                   ].map((fact) => (
@@ -238,7 +238,7 @@ export default function TuckpointingPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Tuckpointing FAQ</h2>
-            <p className="text-gray-600">Common questions about chimney repointing in Boston.</p>
+            <p className="text-gray-600">Common questions about chimney repointing across New England.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -274,7 +274,7 @@ export default function TuckpointingPage() {
 
       <CTABanner
         heading="Protect Your Chimney With Expert Tuckpointing"
-        subtext="Don't let crumbling mortar joints become a costly rebuild. Above Services provides professional chimney tuckpointing throughout Greater Boston and Southern NH. CSIA-certified masons."
+        subtext="Don't let crumbling mortar joints become a costly rebuild. Above Services provides professional chimney tuckpointing throughout New England. CSIA-certified masons."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

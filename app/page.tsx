@@ -7,9 +7,9 @@ import ContactForm from '@/components/ContactForm';
 import BookingButton from '@/components/BookingButton';
 
 export const metadata: Metadata = {
-  title: 'Above Services | Boston\'s Premier Chimney Specialists | (781) 921-6228',
+  title: 'Above Services | New England\'s Premier Chimney Specialists | (781) 921-6228',
   description:
-    'Above Services is a CSIA-certified chimney company serving Greater Boston since 2013. Chimney cleaning, inspection, repair, rebuilds, liner installation, crown repair & fireplace service. Call (781) 921-6228.',
+    'Above Services is a CSIA-certified chimney company serving New England since 2013. Chimney cleaning, inspection, repair, rebuilds, liner installation, crown repair & fireplace service across MA & Southern NH. Call (781) 921-6228.',
   alternates: {
     canonical: 'https://www.aboveservicesboston.com',
   },
@@ -79,7 +79,7 @@ const services = [
     ),
     name: 'Chimney Cap Installation',
     description:
-      'Prevent water damage, animal intrusion, and downdrafts with a premium stainless steel cap. Same-day installation available throughout Greater Boston.',
+      'Prevent water damage, animal intrusion, and downdrafts with a premium stainless steel cap. Same-day installation available across New England.',
     href: '/chimney-cap-installation',
   },
   {
@@ -90,7 +90,7 @@ const services = [
     ),
     name: 'Chimney Crown Repair',
     description:
-      'Stop water infiltration before it destroys your chimney. Boston\'s freeze-thaw cycles are brutal on crowns — small cracks today become big problems next winter.',
+      'Stop water infiltration before it destroys your chimney. New England\'s freeze-thaw cycles are brutal on crowns — small cracks today become big problems next winter.',
     href: '/chimney-crown-repair',
   },
   {
@@ -136,7 +136,7 @@ const services = [
     ),
     name: 'Chimney Leak Repair',
     description:
-      "Stop water damage before it spreads. Flashing repair, crown sealing, brick waterproofing, and cap installation. Boston's freeze-thaw cycles make chimney leaks urgent.",
+      "Stop water damage before it spreads. Flashing repair, crown sealing, brick waterproofing, and cap installation. New England's freeze-thaw cycles make chimney leaks urgent.",
     href: '/chimney-leak-repair',
   },
   {
@@ -199,7 +199,7 @@ const faqs = [
   {
     question: 'What areas do you serve?',
     answer:
-      'We serve Greater Boston (Boston, Cambridge, Somerville, Brookline, Newton, Quincy, Medford, Malden, Waltham, Arlington) and Southern New Hampshire (Nashua, Salem, Derry, Londonderry, Manchester, Hudson, Windham, Merrimack, Bedford, and more). If you\'re unsure, just call — we likely cover your area.',
+      'We serve 32 cities across Massachusetts (Boston, Cambridge, Somerville, Brookline, Newton, Quincy, Medford, Waltham, Arlington, and more) and 9 cities in Southern New Hampshire (Nashua, Salem, Manchester, Derry, Londonderry, Hudson, and more). If you\'re unsure, just call — we likely cover your area.',
   },
   {
     question: 'Are you licensed and insured?',
@@ -427,7 +427,7 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
               <p className="font-black text-2xl md:text-3xl text-navy-950">Book Today & Save 10% on Any Service</p>
-              <p className="text-amber-900/70 text-sm mt-1">Same-day availability · CSIA Certified · Licensed & Insured · Greater Boston & Southern NH</p>
+              <p className="text-amber-900/70 text-sm mt-1">Same-day availability · CSIA Certified · Licensed & Insured · Massachusetts & Southern NH</p>
             </div>
             <a
               href="tel:+17819216228"
@@ -549,7 +549,7 @@ export default function HomePage() {
               Why Homeowners Keep Calling Us Back
             </h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto leading-relaxed">
-              We've been working in Boston homes for over a decade. We know these old chimneys, what Boston winters do to them, and what it takes to fix them properly.
+              We've been working in New England homes for over a decade. We know these old chimneys, what New England winters do to them, and what it takes to fix them right.
             </p>
           </div>
 
@@ -571,8 +571,8 @@ export default function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 ),
-                title: 'Boston-Based & Boston-Focused',
-                description: 'We live here. We know Boston\'s historic homes, old masonry, and brutal winters.',
+                title: 'New England-Based & New England-Focused',
+                description: 'We live here. We know New England\'s historic homes, old masonry, and brutal winters.',
               },
               {
                 icon: (
@@ -626,10 +626,10 @@ export default function HomePage() {
             <h3 className="text-3xl font-black text-white mt-3 mb-6">Above Services LLC</h3>
             <div className="space-y-4 text-slate-300 text-base leading-relaxed text-left">
               <p>
-                Above Services was founded in 2013 by a small crew that grew up working on old New England homes. We started in Boston doing inspections and cleanings, and over the years we expanded into everything a chimney might need — from tuckpointing and liner replacement to full rebuilds after storm damage.
+                Above Services was founded in 2013 by a small crew that grew up working on old New England homes. We started doing inspections and cleanings, and over the years we expanded into everything a chimney might need — from tuckpointing and liner replacement to full rebuilds after storm damage.
               </p>
               <p>
-                We're not a franchise and we don't use subcontractors. When you call us, you get the same CSIA-certified technicians who've been doing this work for years. We've now cleaned and repaired thousands of chimneys across Boston, Cambridge, Newton, Brookline, and into southern New Hampshire — Nashua, Salem, Derry, Manchester, and beyond.
+                We're not a franchise and we don't use subcontractors. When you call us, you get the same CSIA-certified technicians who've been doing this work for years. We've now cleaned and repaired thousands of chimneys across Massachusetts — Boston, Cambridge, Newton, Brookline, Gloucester, Newburyport, Framingham, and more — and throughout southern New Hampshire — Nashua, Salem, Manchester, Derry, and beyond.
               </p>
               <p>
                 We tell you exactly what we find, give you an honest quote before anything starts, and only do the work you agree to. Most of our business comes from referrals and repeat customers. We think that says more than any marketing could.
@@ -676,7 +676,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <span className="text-amber-500 font-semibold text-sm uppercase tracking-widest">Testimonials</span>
             <h2 className="text-4xl md:text-5xl font-black text-navy-950 mt-3 mb-4">
-              What Boston Homeowners Say
+              What New England Homeowners Say
             </h2>
             <div className="flex items-center justify-center gap-3">
               <div className="flex items-center gap-0.5">
@@ -878,10 +878,10 @@ export default function HomePage() {
             <div>
               <span className="text-amber-500 font-semibold text-sm uppercase tracking-widest">Where We Serve</span>
               <h2 className="text-4xl md:text-5xl font-black text-navy-950 mt-3 mb-4">
-                Serving Greater Boston & Southern NH
+                Serving All of New England
               </h2>
               <p className="text-gray-500 text-lg leading-relaxed mb-6">
-                We cover Boston and the surrounding metro area, plus Southern New Hampshire — Nashua, Salem, Manchester, and beyond. Not sure if we reach you? Call and ask.
+                We cover 32 cities across Massachusetts and 9 cities in Southern New Hampshire. From coastal Gloucester and Newburyport to the NH border towns of Pepperell and Nashua. Not sure if we reach you? Call and ask.
               </p>
               <a
                 href="tel:+17819216228"
@@ -973,7 +973,7 @@ export default function HomePage() {
       {/* ─── FINAL CTA BANNER ─── */}
       <CTABanner
         heading="Call Above Services Now"
-        subtext="Book your chimney service today and save 10%. Over 500 satisfied homeowners across Greater Boston and Southern NH. Same-day availability — spots fill fast."
+        subtext="Book your chimney service today and save 10%. Over 500 satisfied homeowners across New England. Same-day availability — spots fill fast."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"
@@ -1037,8 +1037,8 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="font-semibold text-navy-950 mb-1">Service Area</p>
-                    <p className="text-gray-700 font-semibold">Greater Boston & Southern NH</p>
-                    <p className="text-gray-500 text-sm mt-1">Boston metro + Nashua, Salem, Manchester & more</p>
+                    <p className="text-gray-700 font-semibold">Massachusetts & Southern NH</p>
+                    <p className="text-gray-500 text-sm mt-1">41 cities — from Boston to Gloucester to Nashua</p>
                   </div>
                 </div>
 
@@ -1050,7 +1050,7 @@ export default function HomePage() {
                     </svg>
                     <span className="font-bold text-navy-950 text-sm">4.9/5 Stars &bull; 500+ Google Reviews</span>
                   </div>
-                  <p className="text-gray-500 text-sm">Over 500 homeowners across Greater Boston and Southern NH have used Above Services LLC. We don't push work you don't need — we tell you what your chimney actually requires.</p>
+                  <p className="text-gray-500 text-sm">Over 500 homeowners across New England have used Above Services LLC. We don't push work you don't need — we tell you what your chimney actually requires.</p>
                 </div>
               </div>
 

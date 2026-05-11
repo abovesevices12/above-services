@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Leak Repair Boston MA | Water Damage & Waterproofing | (781) 921-6228',
   description:
-    'Expert chimney leak repair and waterproofing in Boston, MA. Flashing repair, crown sealing, brick waterproofing & cap installation. Stop water damage before it spreads. Call (781) 921-6228.',
+    'Expert chimney leak repair and waterproofing across New England. Flashing repair, crown sealing, brick waterproofing & cap installation. Stop water damage before it spreads. Call (781) 921-6228.',
   keywords: [
     'chimney leak repair Boston MA',
     'chimney water damage Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chimney Leak Repair Boston MA | Above Services | (781) 921-6228',
     description:
-      'Stop chimney leaks before they become costly water damage. Flashing repair, crown sealing, waterproofing & cap installation throughout Greater Boston and Southern NH. Call (781) 921-6228.',
+      'Stop chimney leaks before they become costly water damage. Flashing repair, crown sealing, waterproofing & cap installation throughout New England. Call (781) 921-6228.',
     url: 'https://www.aboveservicesboston.com/chimney-leak-repair',
   },
 };
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'What causes a chimney to leak?',
     answer:
-      "Chimney leaks have several common causes: damaged or improperly installed flashing (the metal seal where the chimney meets the roof), a cracked or missing chimney crown, deteriorated mortar joints, spalling brick that absorbs water, a missing or damaged chimney cap, or a cracked flue liner. Often multiple entry points are present at once. Boston's freeze-thaw winters accelerate all of these.",
+      "Chimney leaks have several common causes: damaged or improperly installed flashing (the metal seal where the chimney meets the roof), a cracked or missing chimney crown, deteriorated mortar joints, spalling brick that absorbs water, a missing or damaged chimney cap, or a cracked flue liner. Often multiple entry points are present at once. New England's freeze-thaw winters accelerate all of these.",
   },
   {
     question: 'Can a leaking chimney cause structural damage?',
@@ -81,7 +81,7 @@ const faqs = [
       "Chimney waterproofing involves applying a penetrating water repellent to the exterior masonry that blocks liquid water from soaking in while still allowing the masonry to breathe and release trapped moisture. High-quality waterproofing products (we use professional-grade formulas) can prevent water infiltration for 10+ years and significantly extend the life of the masonry.",
   },
   {
-    question: 'How much does chimney leak repair cost in Boston?',
+    question: 'How much does chimney leak repair cost?',
     answer:
       'Cost depends on what is causing the leak. A minor crown seal costs significantly less than replacing full step flashing, which requires working with roofers. We inspect and identify all causes before starting work and give you a clear quote. Call (781) 921-6228 to schedule an inspection.',
   },
@@ -95,7 +95,7 @@ const faqs = [
 const schemas = [
   serviceSchema({
     name: 'Chimney Leak Repair',
-    description: 'Expert chimney leak repair and waterproofing in Boston, MA. Flashing repair, crown sealing, brick waterproofing, and cap installation.',
+    description: 'Expert chimney leak repair and waterproofing across New England. Flashing repair, crown sealing, brick waterproofing, and cap installation.',
     slug: 'chimney-leak-repair',
   }),
   faqSchema(faqs),
@@ -110,7 +110,7 @@ export default function ChimneyLeakRepairPage() {
       ))}
 
       <ServiceHero
-        title="Chimney Leak Repair in Boston, MA — Find It, Fix It, Stop It"
+        title="Chimney Leak Repair Across New England — Find It, Fix It, Stop It"
         subtitle="Water is a chimney's worst enemy. We find every entry point — flashing, crown, brick, or liner — and fix it properly so you're not dealing with the same leak next season."
         breadcrumbs={[{ label: 'Chimney Leak Repair', href: '/chimney-leak-repair' }]}
         badge="Call Today & Save 10%"
@@ -138,7 +138,7 @@ export default function ChimneyLeakRepairPage() {
               },
               {
                 title: 'Crown Repair & Sealing',
-                desc: "The chimney crown protects the top of the masonry from rain and snow. Boston's freeze-thaw cycles crack crowns quickly. We repair and reseal cracked crowns with flexible, waterproof crown coating that bonds to the masonry and expands/contracts with temperature changes.",
+                desc: "The chimney crown protects the top of the masonry from rain and snow. New England's freeze-thaw cycles crack crowns quickly. We repair and reseal cracked crowns with flexible, waterproof crown coating that bonds to the masonry and expands/contracts with temperature changes.",
                 icon: (
                   <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -237,7 +237,7 @@ export default function ChimneyLeakRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Chimney Leak Repair FAQ</h2>
-            <p className="text-gray-600">Common questions about chimney water problems in Boston.</p>
+            <p className="text-gray-600">Common questions about chimney water problems in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -273,7 +273,7 @@ export default function ChimneyLeakRepairPage() {
 
       <CTABanner
         heading="Stop Your Chimney Leak Before Winter"
-        subtext="Every rain cycle and freeze-thaw makes chimney water damage worse. Above Services provides fast, thorough chimney leak repair throughout Greater Boston and Southern NH."
+        subtext="Every rain cycle and freeze-thaw makes chimney water damage worse. Above Services provides fast, thorough chimney leak repair throughout New England."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Liner Installation Boston MA | Above Services | (781) 921-6228',
   description:
-    'Professional chimney liner installation in Boston, MA. Stainless steel & cast-in-place liners. Restore safe draft & prevent CO leaks. Call (781) 921-6228.',
+    'Professional chimney liner installation across New England. Stainless steel & cast-in-place liners. Restore safe draft & prevent CO leaks. Call (781) 921-6228.',
   keywords: [
     'chimney liner installation Boston MA',
     'chimney liner replacement Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chimney Liner Installation Boston MA | Above Services | (781) 921-6228',
     description:
-      'Professional chimney liner installation in Boston, MA. Stainless steel & cast-in-place liners. Restore safe draft & prevent CO leaks.',
+      'Professional chimney liner installation across New England. Stainless steel & cast-in-place liners. Restore safe draft & prevent CO leaks.',
     url: 'https://www.aboveservicesboston.com/chimney-liner-installation',
   },
 };
@@ -94,7 +94,7 @@ const faqs = [
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Chimney Liner Installation', description: 'Professional chimney liner installation in Boston, MA. Stainless steel and cast-in-place liners restore safe draft and prevent carbon monoxide leaks.', slug: 'chimney-liner-installation' }),
+  serviceSchema({ name: 'Chimney Liner Installation', description: 'Professional chimney liner installation across New England. Stainless steel and cast-in-place liners restore safe draft and prevent carbon monoxide leaks.', slug: 'chimney-liner-installation' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Chimney Liner Installation', href: '/chimney-liner-installation' }]),
 ];
@@ -107,7 +107,7 @@ export default function ChimneyLinerInstallationPage() {
       ))}
 
       <ServiceHero
-        title="Chimney Liner Installation in Boston, MA"
+        title="Chimney Liner Installation Across New England"
         subtitle="A cracked or failing liner is one of the most serious chimney problems you can have. Carbon monoxide seeps through the walls and the fire risk is real. We install code-compliant liners that actually solve the problem."
         breadcrumbs={[{ label: 'Chimney Liner Installation', href: '/chimney-liner-installation' }]}
         badge="Lifetime Warranty Available"
@@ -185,7 +185,7 @@ export default function ChimneyLinerInstallationPage() {
                 type: 'Clay Tile',
                 label: 'Original / Repair',
                 color: 'border-gray-300',
-                desc: 'Clay tile liners are found in most older Boston homes. When intact, they perform adequately — but they crack from heat cycling and are nearly impossible to repair properly once damaged. We replace failed clay tile systems with modern alternatives.',
+                desc: 'Clay tile liners are found in most older New England homes. When intact, they perform adequately — but they crack from heat cycling and are nearly impossible to repair properly once damaged. We replace failed clay tile systems with modern alternatives.',
                 pros: ['Low original cost', 'Adequate for moderate use', 'Common in historic homes'],
                 cons: ['Cracks from heat cycling', 'Cannot be easily repaired', 'Not recommended for new installs'],
                 price: 'Replacement required',
@@ -293,7 +293,7 @@ export default function ChimneyLinerInstallationPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">What Our Customers Say</h2>
-            <p className="text-gray-600">Real reviews from Boston homeowners about our chimney liner work.</p>
+            <p className="text-gray-600">Real reviews from New England homeowners about our chimney liner work.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -308,7 +308,7 @@ export default function ChimneyLinerInstallationPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Chimney Liner FAQ</h2>
-            <p className="text-gray-600">Common questions about chimney liner installation in Boston, MA.</p>
+            <p className="text-gray-600">Common questions about chimney liner installation in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -344,7 +344,7 @@ export default function ChimneyLinerInstallationPage() {
 
       <CTABanner
         heading="Protect Your Home with a New Chimney Liner"
-        subtext="Don't use a fireplace with a cracked or deteriorated liner. Above Services installs code-compliant chimney liners throughout Greater Boston. Camera inspection included. Call today."
+        subtext="Don't use a fireplace with a cracked or deteriorated liner. Above Services installs code-compliant chimney liners throughout New England. Camera inspection included. Call today."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Cleaning Boston MA | Above Services | (781) 921-6228',
   description:
-    'Professional chimney cleaning & sweeping in Boston, MA. Remove dangerous creosote buildup, prevent chimney fires. CSIA-certified sweeps serving Cambridge, Brookline, Newton & Greater Boston. Call (781) 921-6228.',
+    'Professional chimney cleaning & sweeping across New England. Remove dangerous creosote buildup, prevent chimney fires. CSIA-certified sweeps serving Massachusetts & Southern NH. Call (781) 921-6228.',
   keywords: [
     'chimney cleaning Boston MA',
     'chimney sweep Boston',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chimney Cleaning Boston MA | Above Services | (781) 921-6228',
     description:
-      'Professional chimney cleaning & sweeping in Boston, MA. CSIA-certified technicians. Same-day service available.',
+      'Professional chimney cleaning & sweeping across New England. CSIA-certified technicians. Same-day service available.',
     url: 'https://www.aboveservicesboston.com/chimney-cleaning',
   },
 };
@@ -94,7 +94,7 @@ const faqs = [
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Chimney Cleaning', description: 'Professional chimney cleaning and sweeping in Boston, MA. Removes creosote, debris, and blockages to prevent chimney fires and carbon monoxide hazards.', slug: 'chimney-cleaning' }),
+  serviceSchema({ name: 'Chimney Cleaning', description: 'Professional chimney cleaning and sweeping across New England. Removes creosote, debris, and blockages to prevent chimney fires and carbon monoxide hazards.', slug: 'chimney-cleaning' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Chimney Cleaning', href: '/chimney-cleaning' }]),
 ];
@@ -107,8 +107,8 @@ export default function ChimneyCleaningPage() {
       ))}
 
       <ServiceHero
-        title="Professional Chimney Cleaning in Boston, MA"
-        subtitle="Our CSIA-certified crew sweeps chimneys across Greater Boston. We remove creosote, clear any blockages, and do a full safety check — then walk you through exactly what we found."
+        title="Professional Chimney Cleaning Across New England"
+        subtitle="Our CSIA-certified crew sweeps chimneys across Massachusetts and Southern NH. We remove creosote, clear any blockages, and do a full safety check — then walk you through exactly what we found."
         breadcrumbs={[{ label: 'Chimney Cleaning', href: '/chimney-cleaning' }]}
         badge="Includes Level 1 Inspection"
       />
@@ -239,7 +239,7 @@ export default function ChimneyCleaningPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">What Our Customers Say</h2>
-            <p className="text-gray-600">Real reviews from Boston homeowners about our chimney cleaning service.</p>
+            <p className="text-gray-600">Real reviews from New England homeowners about our chimney cleaning service.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -254,7 +254,7 @@ export default function ChimneyCleaningPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Chimney Cleaning FAQ</h2>
-            <p className="text-gray-600">Answers to common questions about chimney cleaning in Boston, MA.</p>
+            <p className="text-gray-600">Answers to common questions about chimney cleaning in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -290,7 +290,7 @@ export default function ChimneyCleaningPage() {
 
       <CTABanner
         heading="Call Above Services — Book Your Cleaning Today"
-        subtext="Every chimney cleaning includes a full Level 1 inspection. Call now and save 10%. Same-day service available across Greater Boston."
+        subtext="Every chimney cleaning includes a full Level 1 inspection. Call now and save 10%. Same-day service available across New England."
         primaryButtonText="Call Now For 10% Off"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"

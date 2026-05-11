@@ -9,7 +9,7 @@ import { faqSchema, breadcrumbSchema, serviceSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Repair Boston MA | Tuckpointing & Masonry | (781) 921-6228',
   description:
-    'Expert chimney repair in Boston, MA. Tuckpointing, crown repair, liner replacement & flashing repair by CSIA-certified masons. Serving Cambridge, Brookline & Greater Boston. Call (781) 921-6228.',
+    'Expert chimney repair across New England. Tuckpointing, crown repair, liner replacement & flashing repair by CSIA-certified masons. Serving Massachusetts & Southern NH. Call (781) 921-6228.',
   keywords: [
     'chimney repair Boston MA',
     'tuckpointing Boston MA',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chimney Repair Boston MA | Above Services | (781) 921-6228',
     description:
-      'Expert chimney repair in Boston, MA. Tuckpointing, crown repair, liner replacement & flashing repair by CSIA-certified masons. Serving Cambridge, Brookline & Greater Boston. Call (781) 921-6228.',
+      'Expert chimney repair across New England. Tuckpointing, crown repair, liner replacement & flashing repair by CSIA-certified masons. Serving Massachusetts & Southern NH. Call (781) 921-6228.',
     url: 'https://www.aboveservicesboston.com/chimney-repair',
   },
 };
@@ -69,10 +69,10 @@ const faqs = [
   {
     question: 'What is tuckpointing and do I need it?',
     answer:
-      'Tuckpointing is the process of removing deteriorated mortar joints and replacing them with fresh mortar. Boston\'s freeze-thaw cycles are particularly hard on chimney mortar. If your mortar is crumbling, eroded, or missing, tuckpointing is essential to prevent water infiltration and structural damage. Neglected mortar can lead to brick instability over time.',
+      'Tuckpointing is the process of removing deteriorated mortar joints and replacing them with fresh mortar. New England\'s freeze-thaw cycles are particularly hard on chimney mortar. If your mortar is crumbling, eroded, or missing, tuckpointing is essential to prevent water infiltration and structural damage. Neglected mortar can lead to brick instability over time.',
   },
   {
-    question: 'How much does chimney repair cost in Boston?',
+    question: 'How much does chimney repair cost?',
     answer:
       'Chimney repair costs vary widely depending on the scope of work. We provide free detailed estimates for all work — pricing varies based on height, extent, and materials. Call us to discuss your situation and we\'ll give you a clear, itemized quote before any work begins.',
   },
@@ -94,7 +94,7 @@ const faqs = [
 ];
 
 const schemas = [
-  serviceSchema({ name: 'Chimney Repair', description: 'Expert chimney repair in Boston, MA. Tuckpointing, crown repair, liner replacement, flashing repair and complete chimney restoration by CSIA-certified masons.', slug: 'chimney-repair' }),
+  serviceSchema({ name: 'Chimney Repair', description: 'Expert chimney repair across New England. Tuckpointing, crown repair, liner replacement, flashing repair and complete chimney restoration by CSIA-certified masons.', slug: 'chimney-repair' }),
   faqSchema(faqs),
   breadcrumbSchema([{ name: 'Chimney Repair', href: '/chimney-repair' }]),
 ];
@@ -107,7 +107,7 @@ export default function ChimneyRepairPage() {
       ))}
 
       <ServiceHero
-        title="Chimney Repair Boston MA — Licensed & Certified Masons"
+        title="Chimney Repair Across New England — Licensed & Certified Masons"
         subtitle="Whether it's deteriorating mortar, a cracked crown, or a liner that needs replacing — we diagnose the problem, explain it clearly, and fix it right the first time."
         breadcrumbs={[{ label: 'Chimney Repair', href: '/chimney-repair' }]}
         badge="Call Today & Save 10% on Any Repair"
@@ -129,7 +129,7 @@ export default function ChimneyRepairPage() {
             {[
               {
                 title: 'Tuckpointing',
-                desc: 'Remove and replace deteriorated mortar joints between bricks. Prevents water infiltration and brick movement. Essential for Boston homes exposed to harsh freeze-thaw cycles.',
+                desc: 'Remove and replace deteriorated mortar joints between bricks. Prevents water infiltration and brick movement. Essential for New England homes exposed to harsh freeze-thaw cycles.',
                 icon: '🧱',
               },
               {
@@ -154,7 +154,7 @@ export default function ChimneyRepairPage() {
               },
               {
                 title: 'Chimney Waterproofing',
-                desc: 'We apply professional-grade masonry waterproofer to protect your chimney from Boston\'s wet climate. This breathable treatment prevents water absorption while allowing moisture vapor to escape.',
+                desc: 'We apply professional-grade masonry waterproofer to protect your chimney from New England\'s wet climate. This breathable treatment prevents water absorption while allowing moisture vapor to escape.',
                 icon: '💧',
               },
             ].map((service) => (
@@ -183,7 +183,7 @@ export default function ChimneyRepairPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
             {[
               { sign: 'White Staining (Efflorescence)', desc: 'White chalky deposits on chimney bricks indicate water is moving through the masonry, carrying salts to the surface. This can signal significant moisture damage inside.' },
-              { sign: 'Crumbling or Missing Mortar', desc: 'Mortar naturally deteriorates over 20–30 years, but Boston\'s harsh winters accelerate this. Missing mortar allows water and debris into the chimney structure.' },
+              { sign: 'Crumbling or Missing Mortar', desc: 'Mortar naturally deteriorates over 20–30 years, but New England\'s harsh winters accelerate this. Missing mortar allows water and debris into the chimney structure.' },
               { sign: 'Cracks in Chimney Crown or Bricks', desc: 'Cracks allow water to penetrate the chimney system. Even small cracks can rapidly expand through freeze-thaw cycles if not sealed promptly.' },
               { sign: 'Water in Firebox After Rain', desc: 'Finding water inside your firebox is a clear sign of failed flashing, a damaged crown, or liner cracks. Water damage compounds quickly — act fast.' },
               { sign: 'Chunks of Tile in Firebox', desc: 'Pieces of clay tile in your firebox indicate your liner is deteriorating. A damaged liner is a serious safety hazard and requires immediate attention.' },
@@ -218,7 +218,7 @@ export default function ChimneyRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Customer Reviews</h2>
-            <p className="text-gray-600">See what Boston homeowners say about our chimney repair work.</p>
+            <p className="text-gray-600">See what New England homeowners say about our chimney repair work.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
@@ -233,7 +233,7 @@ export default function ChimneyRepairPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-navy-950 mb-2">Chimney Repair FAQ</h2>
-            <p className="text-gray-600">Common questions about chimney repair in Boston, MA.</p>
+            <p className="text-gray-600">Common questions about chimney repair in Massachusetts and Southern NH.</p>
           </div>
           <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq) => (
@@ -269,7 +269,7 @@ export default function ChimneyRepairPage() {
 
       <CTABanner
         heading="Call Above Services Now — Save 10% on Repairs"
-        subtext="Don't let small chimney damage become a major expense. Call today, save 10%, and get a full assessment before any work begins. Serving all of Greater Boston."
+        subtext="Don't let small chimney damage become a major expense. Call today, save 10%, and get a full assessment before any work begins. Serving all of New England."
         primaryButtonText="Call Now — Save 10%"
         primaryButtonHref="tel:+17819216228"
         secondaryButtonText="Book Today & Save 10%"
