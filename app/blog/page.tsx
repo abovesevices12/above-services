@@ -7,7 +7,7 @@ import { breadcrumbSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Chimney Blog — Boston Homeowner Guides | Above Services',
   description:
-    'Practical chimney guides from our CSIA-certified crew. Covering cleaning schedules, repair signs, liner types, waterproofing, fireplace safety, and more for Greater Boston homeowners.',
+    'Practical chimney guides. Covering cleaning schedules, repair signs, liner types, waterproofing, fireplace safety, and more for Greater Boston homeowners.',
   keywords: [
     'chimney blog Boston',
     'chimney advice Boston MA',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'chimney safety tips MA',
   ],
   alternates: {
-    canonical: 'https://www.aboveservicesboston.com/blog',
+    canonical: 'https://www.aboveservices.us/blog',
   },
   openGraph: {
     type: 'website',
