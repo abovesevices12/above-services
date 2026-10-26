@@ -8,19 +8,12 @@ export const metadata: Metadata = {
   title: 'Chimney Blog — Boston Homeowner Guides | Above Services',
   description:
     'Practical chimney guides. Covering cleaning schedules, repair signs, liner types, waterproofing, fireplace safety, and more for Greater Boston homeowners.',
-  keywords: [
-    'chimney blog Boston',
-    'chimney advice Boston MA',
-    'fireplace maintenance guide',
-    'chimney repair guide Boston',
-    'chimney safety tips MA',
-  ],
   alternates: {
     canonical: 'https://www.aboveservices.us/blog',
   },
   openGraph: {
     type: 'website',
-    url: 'https://www.aboveservicesboston.com/blog',
+    url: 'https://www.aboveservices.us/blog',
     title: 'Chimney Blog — Boston Homeowner Guides | Above Services',
     description:
       'Practical chimney guides from our CSIA-certified crew. Covering cleaning, repair, liner types, waterproofing, and fireplace safety for Greater Boston homeowners.',
