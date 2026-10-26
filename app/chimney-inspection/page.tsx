@@ -42,7 +42,7 @@ const reviews = [
     location: 'Boston, MA',
     date: 'June 2024',
     review:
-      'We were buying a home in the South End and our real estate agent insisted on a Level 2 chimney inspection before closing. Above Services came out within two days, conducted a thorough video inspection, and provided a detailed written report we could show the seller. They found a cracked liner that led to a $1,500 credit at closing. Worth every penny of the inspection fee.',
+      'We were buying a huge home in the South End and our real estate agent insisted on a Level 2 chimney inspection before closing. Above Services came out within two days, conducted a thorough video inspection, and provided a detailed written report we could show the seller. They found a cracked liner that led to a $1,500 credit at closing. Worth every penny of the inspection fee.',
   },
   {
     name: 'Daniel H.',
