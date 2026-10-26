@@ -7,11 +7,19 @@ import ContactForm from '@/components/ContactForm';
 import BookingButton from '@/components/BookingButton';
 
 export const metadata: Metadata = {
-  title: 'Above Services | New England\'s Premier Chimney Specialists | (781) 921-6228',
+  title: 'Chimney Cleaning & Repair in Boston, MA | Above Services',
   description:
-    'Above Services is a CSIA-certified chimney company serving New England since 2013. Chimney cleaning, inspection, repair, rebuilds, liner installation, crown repair & fireplace service across MA & Southern NH. Call (781) 921-6228.',
+    'Chimney cleaning, inspection, repair, liner & crown work in Boston, Saugus, Lynn & the North Shore. Licensed & insured. Same-day service. Call (781) 921-6228.',
   alternates: {
-    canonical: 'https://www.aboveservicesboston.com',
+    canonical: 'https://www.aboveservices.us',
+  },
+  openGraph: {
+    type: 'website',
+    url: 'https://www.aboveservices.us',
+    siteName: 'Above Services',
+    title: 'Chimney Cleaning & Repair in Boston, MA | Above Services',
+    description:
+      'Chimney cleaning, inspection, repair, liner & crown work in Boston, Saugus, Lynn & the North Shore. Licensed & insured. Same-day service. Call (781) 921-6228.',
   },
 };
 
@@ -24,7 +32,7 @@ const services = [
     ),
     name: 'Chimney Inspection',
     description:
-      'CSIA-certified Level 1, 2 & 3 inspections. Annual safety checks, real estate inspections, post-incident assessments. Includes camera scan with Level 2.',
+      'Level 1, 2 & 3 chimney inspections — annual safety checks, home-buying inspections, and post-incident assessments. Includes camera scan with Level 2.',
     href: '/chimney-inspection',
   },
   {
@@ -35,7 +43,7 @@ const services = [
     ),
     name: 'Chimney Cleaning',
     description:
-      'Annual chimney sweeping removes dangerous creosote buildup and debris. Keep your home safe and your fireplace burning efficiently all winter.',
+      'Annual chimney sweeping and cleaning removes dangerous creosote buildup and debris. Keep your home safe and your fireplace burning efficiently all winter.',
     href: '/chimney-cleaning',
   },
   {
@@ -46,7 +54,7 @@ const services = [
     ),
     name: 'Chimney Repair',
     description:
-      'From tuckpointing and flashing repair to full liner replacement — our CSIA-certified masons restore your chimney\'s structural integrity. Call for a quote.',
+      'From tuckpointing and flashing repair to full liner replacement — our experienced masons restore your chimney\'s structural integrity. Call for a quote.',
     href: '/chimney-repair',
   },
   {
@@ -57,7 +65,7 @@ const services = [
     ),
     name: 'Chimney Rebuilds',
     description:
-      'Full and partial chimney reconstruction using premium matching brick and mortar. CSIA-certified masons. We pull all permits and handle insurance documentation.',
+      'Full and partial chimney reconstruction using premium matching brick and mortar. Experienced masons. We pull all permits and handle insurance documentation.',
     href: '/chimney-rebuilds',
   },
   {
@@ -79,7 +87,7 @@ const services = [
     ),
     name: 'Chimney Cap Installation',
     description:
-      'Prevent water damage, animal intrusion, and downdrafts with a premium stainless steel cap. Same-day installation available across New England.',
+      'Prevent water damage, animal intrusion, and downdrafts with a premium stainless steel cap. Same-day installation available across Greater Boston.',
     href: '/chimney-cap-installation',
   },
   {
@@ -197,14 +205,29 @@ const faqs = [
       'The National Fire Protection Association (NFPA) recommends annual chimney inspections and cleaning as needed. If you use your fireplace regularly (more than a cord of wood per season), you should have it cleaned annually. Occasional users may be able to go every 2 years, but an annual inspection is always recommended to catch issues early.',
   },
   {
+    question: 'How much does chimney cleaning cost in Boston?',
+    answer:
+      'Chimney cleaning is flat-rate, and we give you a complete price over the phone before any work begins — no surprises. Repairs and installations are quoted after an on-site assessment, and we confirm the price before we start. Call (781) 921-6228 for a quote and book today to save 10% on your first service.',
+  },
+  {
+    question: 'What are the signs I need chimney repair?',
+    answer:
+      'Common warning signs include cracked or crumbling mortar joints, flaking or spalling bricks, white staining on the brick (efflorescence), rust on the damper or firebox, water stains on the ceiling or walls near the chimney, a cracked crown, and a smoky or drafty fireplace. If you notice any of these, schedule an inspection before the next heating season.',
+  },
+  {
+    question: 'Do you service gas fireplaces?',
+    answer:
+      'Yes. We offer annual tune-ups, ignition repair, thermocouple replacement, and safety inspections for direct-vent, natural-vent, and vent-free gas fireplaces.',
+  },
+  {
     question: 'What areas do you serve?',
     answer:
-      'We serve 32 cities across Massachusetts (Boston, Cambridge, Somerville, Brookline, Newton, Quincy, Medford, Waltham, Arlington, and more) and 9 cities in Southern New Hampshire (Nashua, Salem, Manchester, Derry, Londonderry, Hudson, and more). If you\'re unsure, just call — we likely cover your area.',
+      'We serve Greater Boston and the North Shore, including Boston, Saugus, Lynn, Revere, Malden, Medford, Somerville, Cambridge, Brookline, Newton, Quincy, Waltham, Arlington, Peabody, Salem, Gloucester, and surrounding towns. If you\'re unsure, just call — we likely cover your area.',
   },
   {
     question: 'Are you licensed and insured?',
     answer:
-      'Absolutely. Above Services is fully licensed by the Commonwealth of Massachusetts and carries comprehensive general liability insurance and workers\' compensation coverage. We\'re also certified by the Chimney Safety Institute of America (CSIA). You can request proof of insurance at any time.',
+      'Absolutely. Above Services is fully licensed by the Commonwealth of Massachusetts and carries comprehensive general liability insurance and workers\' compensation coverage. You can request proof of insurance at any time.',
   },
   {
     question: 'Do you offer same-day service?',
@@ -215,11 +238,6 @@ const faqs = [
     question: 'What payment methods do you accept?',
     answer:
       'We accept all major credit cards (Visa, Mastercard, American Express, Discover), cash, and check. We also offer financing options for larger repair projects. Ask about our payment plans when you call.',
-  },
-  {
-    question: 'How do I book and what does it cost?',
-    answer:
-      'Call us at (781) 921-6228 to book — we\'ll give you a complete price over the phone before any work begins, no surprises. Cleaning services are flat-rate. For repairs and installations we assess on-site and confirm pricing before starting. Book today and save 10% on your first service.',
   },
 ];
 
@@ -258,19 +276,19 @@ export default function HomePage() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400" />
             </span>
-            Same-Day Available &bull; CSIA Certified &bull; 4.9★ 500+ Reviews
+            Same-Day Available &bull; Licensed & Insured &bull; 5.0★ 60+ Reviews
           </div>
 
           {/* H1 */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white max-w-4xl leading-none sm:leading-[0.88] mb-6">
-            <span className="block">New England's</span>
-            <span className="block text-amber-400">Premier Chimney</span>
+            <span className="block">Boston Chimney</span>
+            <span className="block text-amber-400">Cleaning & Repair</span>
             <span className="block">Specialists</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-slate-300 max-w-xl mb-8 leading-relaxed">
-            CSIA-certified chimney cleaning, inspection, repair & rebuilds — serving New England since 2013.
+            Chimney cleaning, inspection, repair & rebuilds in Boston, Saugus, Lynn and the North Shore — serving Greater Boston since 2013.
             Honest pricing. Same-day availability. No subcontractors.
           </p>
 
@@ -306,8 +324,8 @@ export default function HomePage() {
           <div className="flex flex-wrap gap-3 max-w-2xl">
             {[
               { icon: '🛡', label: 'Licensed & Insured', sub: 'MA State' },
-              { icon: '⭐', label: '4.9 · 500+ Reviews', sub: 'Google' },
-              { icon: '✓', label: 'CSIA Certified', sub: 'Every Tech' },
+              { icon: '⭐', label: '5.0 · 60+ Reviews', sub: 'Google' },
+              { icon: '✓', label: 'Experienced Crew', sub: 'No Subcontractors' },
               { icon: '⚡', label: 'Same-Day Service', sub: 'Most Days' },
             ].map((b) => (
               <div key={b.label} className="flex items-center gap-2.5 bg-white/8 border border-white/12 rounded-xl px-4 py-2.5 backdrop-blur-sm">
@@ -336,8 +354,8 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4">
             {[
               { number: '500+', label: 'Happy Customers', icon: '😊' },
-              { number: '4.9★', label: 'Google Rating', icon: '⭐' },
-              { number: '12+', label: 'Years Serving New England', icon: '🏠' },
+              { number: '5.0★', label: 'Google Rating', icon: '⭐' },
+              { number: '13+', label: 'Years Serving Greater Boston', icon: '🏠' },
               { number: '100%', label: 'Satisfaction Guaranteed', icon: '✓' },
             ].map((stat, i) => (
               <div
@@ -358,10 +376,10 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <span className="text-amber-500 font-semibold text-sm uppercase tracking-widest">Our Services</span>
             <h2 className="text-4xl md:text-5xl font-black text-navy-950 mt-3 mb-4">
-              Complete Chimney Services
+              Chimney Cleaning, Repair & Inspection Services
             </h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed">
-              Every job is done by our own CSIA-certified crew — no subcontractors. We quote upfront, show up on time, and leave your home clean.
+              Every job is done by our own crew — no subcontractors. We quote upfront, show up on time, and leave your home clean.
             </p>
           </div>
 
@@ -427,7 +445,7 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
               <p className="font-black text-2xl md:text-3xl text-navy-950">Book Today & Save 10% on Any Service</p>
-              <p className="text-amber-900/70 text-sm mt-1">Same-day availability · CSIA Certified · Licensed & Insured · Massachusetts & Southern NH</p>
+              <p className="text-amber-900/70 text-sm mt-1">Same-day availability · Licensed & Insured · Greater Boston & the North Shore</p>
             </div>
             <a
               href="tel:+17819216228"
@@ -553,513 +571,4 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-14">
-            {[
-              {
-                icon: (
-                  <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                  </svg>
-                ),
-                title: 'CSIA Certified',
-                description: 'Every technician holds an active CSIA certification — the industry\'s recognized standard for chimney safety.',
-              },
-              {
-                icon: (
-                  <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                ),
-                title: 'New England-Based & New England-Focused',
-                description: 'We live here. We know New England\'s historic homes, old masonry, and brutal winters.',
-              },
-              {
-                icon: (
-                  <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                ),
-                title: 'No Surprises',
-                description: "We quote before we start, explain what we find, and only do work you've agreed to. That's it.",
-              },
-              {
-                icon: (
-                  <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                  </svg>
-                ),
-                title: 'Licensed, Bonded & Insured',
-                description: 'Full general liability and workers\' comp coverage. We carry proof of insurance on every job.',
-              },
-            ].map((item) => (
-              <div key={item.title} className="bg-white/5 border border-white/10 rounded-2xl p-7 hover:border-amber-400/30 transition-colors duration-300">
-                <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-amber-400 mb-5">
-                  {item.icon}
-                </div>
-                <h3 className="text-white font-bold text-lg mb-3">{item.title}</h3>
-                <p className="text-slate-300 text-sm leading-relaxed">{item.description}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Credential chips */}
-          <div className="border-t border-white/10 pt-10 mb-14">
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              {['NFPA Standards', 'CSIA Member', 'MA Licensed Contractor'].map((cred) => (
-                <span
-                  key={cred}
-                  className="inline-flex items-center gap-2 border border-amber-400/40 text-amber-400 text-sm font-semibold px-5 py-2.5 rounded-full bg-amber-400/5"
-                >
-                  <svg className="w-4 h-4 fill-current" viewBox="0 0 20 20" aria-hidden="true">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  {cred}
-                </span>
-              ))}
-            </div>
-          </div>
-
-          {/* About Us story */}
-          <div className="border-t border-white/10 pt-14 max-w-3xl mx-auto text-center">
-            <span className="text-amber-400 font-semibold text-sm uppercase tracking-widest">Our Story</span>
-            <h3 className="text-3xl font-black text-white mt-3 mb-6">Above Services LLC</h3>
-            <div className="space-y-4 text-slate-300 text-base leading-relaxed text-left">
-              <p>
-                Above Services was founded in 2013 by a small crew that grew up working on old New England homes. We started doing inspections and cleanings, and over the years we expanded into everything a chimney might need — from tuckpointing and liner replacement to full rebuilds after storm damage.
-              </p>
-              <p>
-                We're not a franchise and we don't use subcontractors. When you call us, you get the same CSIA-certified technicians who've been doing this work for years. We've now cleaned and repaired thousands of chimneys across Massachusetts — Boston, Cambridge, Newton, Brookline, Gloucester, Newburyport, Framingham, and more — and throughout southern New Hampshire — Nashua, Salem, Manchester, Derry, and beyond.
-              </p>
-              <p>
-                We tell you exactly what we find, give you an honest quote before anything starts, and only do the work you agree to. Most of our business comes from referrals and repeat customers. We think that says more than any marketing could.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── HOW IT WORKS ─── */}
-      <section className="bg-gray-50 py-20 md:py-28">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-14">
-            <span className="text-amber-500 font-semibold text-sm uppercase tracking-widest">Our Process</span>
-            <h2 className="text-4xl md:text-5xl font-black text-navy-950 mt-3 mb-4">From Call to Clean Chimney</h2>
-            <p className="text-gray-500 text-lg max-w-xl mx-auto">Here's how a typical job works — from the first call to the final report.</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto relative">
-            {/* Connecting line — desktop only */}
-            <div className="hidden md:block absolute top-8 left-[12.5%] right-[12.5%] h-0.5 bg-amber-200 z-0" />
-
-            {[
-              { step: 1, title: 'Call & Schedule', description: 'Call (781) 921-6228 and we\'ll book you in — often same-day. No wait, no runaround.' },
-              { step: 2, title: 'Expert Arrives', description: 'A CSIA-certified technician arrives on time, in uniform, with all the right equipment.' },
-              { step: 3, title: 'Work Completed', description: 'We do the job right the first time. Clean, safe, and fully explained to you.' },
-              { step: 4, title: 'Satisfaction Guaranteed', description: 'You approve the job. We leave your home spotless and give you a written report.' },
-            ].map((s) => (
-              <div key={s.step} className="relative z-10 flex flex-col items-center text-center">
-                <div className="w-16 h-16 rounded-full bg-amber-500 flex items-center justify-center text-white font-black text-2xl mb-5 shadow-lg shadow-amber-500/30">
-                  {s.step}
-                </div>
-                <h3 className="font-bold text-navy-950 text-lg mb-2">{s.title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{s.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── REVIEWS SECTION ─── */}
-      <section className="bg-white py-20 md:py-28" id="reviews">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="text-amber-500 font-semibold text-sm uppercase tracking-widest">Testimonials</span>
-            <h2 className="text-4xl md:text-5xl font-black text-navy-950 mt-3 mb-4">
-              What New England Homeowners Say
-            </h2>
-            <div className="flex items-center justify-center gap-3">
-              <div className="flex items-center gap-0.5">
-                {[1, 2, 3, 4, 5].map((s) => (
-                  <svg key={s} className="w-5 h-5 text-amber-400 fill-current" viewBox="0 0 20 20" aria-hidden="true">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <span className="font-black text-navy-950 text-lg">4.9/5</span>
-              <span className="text-gray-500 text-sm">&bull; 500+ verified reviews &bull; Google</span>
-            </div>
-          </div>
-
-          {/* Featured review */}
-          <div className="bg-gradient-to-br from-navy-950 to-[#0f2440] rounded-3xl p-10 md:p-14 mb-6 relative overflow-hidden">
-            <div className="absolute top-6 left-10 text-8xl leading-none text-amber-400 opacity-20 font-black select-none pointer-events-none">&ldquo;</div>
-            <div className="relative">
-              <p className="text-xl md:text-2xl italic text-slate-200 leading-relaxed mb-8 max-w-4xl">
-                {reviews[0].review}
-              </p>
-              <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-white font-black text-lg flex-shrink-0">
-                    {reviews[0].name.charAt(0)}
-                  </div>
-                  <div>
-                    <p className="text-white font-black text-lg">{reviews[0].name}</p>
-                    <p className="text-slate-400 text-sm">{reviews[0].location} &bull; {reviews[0].date}</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-1 sm:ml-auto">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <svg key={s} className="w-5 h-5 text-amber-400 fill-current" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Remaining 4 reviews in 2×2 grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {reviews.slice(1).map((review) => (
-              <ReviewCard key={review.name} {...review} />
-            ))}
-          </div>
-
-          {/* Google Reviews badge */}
-          <div className="mt-10 flex justify-center">
-            <a
-              href="https://maps.app.goo.gl/m6JmBt8W75SP118S8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-4 bg-white border border-gray-200 hover:border-amber-400 hover:shadow-md rounded-2xl px-6 py-4 transition-all duration-200 group"
-              aria-label="See all reviews on Google"
-            >
-              {/* Google G */}
-              <svg className="w-8 h-8 flex-shrink-0" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
-                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-              </svg>
-              <div>
-                <div className="flex items-center gap-1.5 mb-0.5">
-                  <div className="flex items-center gap-0.5">
-                    {[1,2,3,4,5].map((s) => (
-                      <svg key={s} className="w-4 h-4 text-amber-400 fill-current" viewBox="0 0 20 20" aria-hidden="true">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <span className="font-black text-navy-950 text-sm">4.9</span>
-                </div>
-                <p className="text-gray-500 text-xs">500+ reviews on Google</p>
-              </div>
-              <svg className="w-4 h-4 text-gray-400 group-hover:text-amber-500 flex-shrink-0 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── TRUST & CERTIFICATIONS BAR ─── */}
-      <section className="bg-gray-50 py-12 border-y border-gray-200">
-        <div className="container mx-auto px-4">
-          {/* Mobile: 2-col grid. Desktop: single flex row with dividers */}
-          <div className="grid grid-cols-2 gap-4 md:hidden">
-            {[
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                ),
-                label: 'Fully Licensed & Insured in Massachusetts',
-              },
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                ),
-                label: 'CSIA Certified Technicians',
-              },
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                  </svg>
-                ),
-                label: 'Written Reports on Every Job',
-              },
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0 fill-current" viewBox="0 0 20 20" aria-hidden="true">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ),
-                label: '4.9 Stars · 500+ Reviews',
-              },
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                ),
-                label: 'Same-Day Service Available',
-              },
-            ].map((item) => (
-              <div key={item.label} className="flex items-center gap-2 text-sm font-semibold text-gray-600">
-                {item.icon}
-                <span>{item.label}</span>
-              </div>
-            ))}
-          </div>
-
-          {/* Desktop: flex row with dividers */}
-          <div className="hidden md:flex items-center justify-center divide-x divide-gray-300">
-            {[
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                ),
-                label: 'Fully Licensed & Insured in Massachusetts',
-              },
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                ),
-                label: 'CSIA Certified Technicians',
-              },
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                  </svg>
-                ),
-                label: 'Written Reports on Every Job',
-              },
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0 fill-current" viewBox="0 0 20 20" aria-hidden="true">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ),
-                label: '4.9 Stars · 500+ Reviews',
-              },
-              {
-                icon: (
-                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                ),
-                label: 'Same-Day Service Available',
-              },
-            ].map((item) => (
-              <div key={item.label} className="flex items-center gap-2 text-sm font-semibold text-gray-600 px-6 first:pl-0 last:pr-0">
-                {item.icon}
-                <span>{item.label}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── SERVICE AREAS ─── */}
-      <section className="bg-white py-20 md:py-24" id="service-areas">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-5xl mx-auto">
-            {/* Left: description + CTA */}
-            <div>
-              <span className="text-amber-500 font-semibold text-sm uppercase tracking-widest">Where We Serve</span>
-              <h2 className="text-4xl md:text-5xl font-black text-navy-950 mt-3 mb-4">
-                Serving All of New England
-              </h2>
-              <p className="text-gray-500 text-lg leading-relaxed mb-6">
-                We cover 32 cities across Massachusetts and 9 cities in Southern New Hampshire. From coastal Gloucester and Newburyport to the NH border towns of Pepperell and Nashua. Not sure if we reach you? Call and ask.
-              </p>
-              <a
-                href="tel:+17819216228"
-                className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-black py-4 px-8 rounded-2xl text-base transition-all duration-200 active:scale-95 shadow-lg hover:shadow-amber-500/30"
-              >
-                <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                Call (781) 921-6228
-              </a>
-            </div>
-
-            {/* Right: city pills grid */}
-            <div>
-              <div className="grid grid-cols-2 gap-3 mb-4">
-                {[
-                  { city: 'Boston', state: 'MA', slug: 'boston' },
-                  { city: 'Cambridge', state: 'MA', slug: 'cambridge' },
-                  { city: 'Somerville', state: 'MA', slug: 'somerville' },
-                  { city: 'Newton', state: 'MA', slug: 'newton' },
-                  { city: 'Brookline', state: 'MA', slug: 'brookline' },
-                  { city: 'Quincy', state: 'MA', slug: 'quincy' },
-                  { city: 'Medford', state: 'MA', slug: 'medford' },
-                  { city: 'Waltham', state: 'MA', slug: 'waltham' },
-                  { city: 'Nashua', state: 'NH', slug: null },
-                  { city: 'Salem', state: 'NH', slug: null },
-                  { city: 'Manchester', state: 'NH', slug: null },
-                  { city: 'Derry', state: 'NH', slug: null },
-                ].map(({ city, state, slug }) => (
-                  <Link
-                    key={city}
-                    href={slug ? `/service-areas/${slug}` : '/service-areas'}
-                    className="bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm font-semibold text-navy-950 hover:border-amber-400 hover:bg-amber-50 transition-colors duration-200 flex items-center gap-2"
-                  >
-                    <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    {city}, {state}
-                  </Link>
-                ))}
-              </div>
-              <p className="text-gray-500 text-sm">
-                Don't see your city?{' '}
-                <a href="tel:+17819216228" className="text-amber-600 font-semibold hover:text-amber-700">
-                  Call us
-                </a>{' '}
-                — we likely cover your area.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── FAQ SECTION ─── */}
-      <section className="bg-gray-50 py-20 md:py-24" id="faq">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="text-amber-500 font-semibold text-sm uppercase tracking-widest">Common Questions</span>
-            <h2 className="text-4xl md:text-5xl font-black text-navy-950 mt-3 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-              A few questions we hear all the time. If yours isn't here, just call — we're easy to reach.
-            </p>
-          </div>
-
-          <div className="max-w-3xl mx-auto space-y-3">
-            {faqs.map((faq) => (
-              <FAQItem key={faq.question} question={faq.question} answer={faq.answer} />
-            ))}
-          </div>
-
-          <div className="text-center mt-10">
-            <p className="text-gray-500 mb-4">Still have questions?</p>
-            <a
-              href="tel:+17819216228"
-              className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-black py-3.5 px-8 rounded-2xl transition-all duration-200 active:scale-95"
-            >
-              <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              Call Us — We're Happy to Help
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── FINAL CTA BANNER ─── */}
-      <CTABanner
-        heading="Call Above Services Now"
-        subtext="Book your chimney service today and save 10%. Over 500 satisfied homeowners across New England. Same-day availability — spots fill fast."
-        primaryButtonText="Call Now — Save 10%"
-        primaryButtonHref="tel:+17819216228"
-        secondaryButtonText="Book Today & Save 10%"
-        showPhone={true}
-        urgencyNote="Limited same-day spots available"
-      />
-
-      {/* ─── CONTACT SECTION ─── */}
-      <section className="py-20 md:py-28 bg-white" id="contact">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="text-amber-500 font-semibold text-sm uppercase tracking-widest">Get In Touch</span>
-              <h2 className="text-4xl md:text-5xl font-black text-navy-950 mt-3 mb-4">
-                Book Your Chimney Service
-              </h2>
-              <p className="text-gray-500 text-lg">
-                Call for same-day availability, or fill out the form below. We respond to all messages within 2 hours during business hours.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-              {/* Contact info */}
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-navy-950 mb-1">Phone</p>
-                    <a href="tel:+17819216228" className="text-amber-600 font-black text-2xl hover:text-amber-700 transition-colors">
-                      (781) 921-6228
-                    </a>
-                    <p className="text-gray-500 text-sm mt-1">Sun&ndash;Thu: 24/7 &bull; Fri: 8am&ndash;6pm</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-navy-950 mb-1">Email</p>
-                    <a href="mailto:aboveservicesllc@gmail.com" className="text-amber-600 hover:text-amber-700 transition-colors font-semibold">
-                      aboveservicesllc@gmail.com
-                    </a>
-                    <p className="text-gray-500 text-sm mt-1">We respond within 2 business hours</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-navy-950 mb-1">Service Area</p>
-                    <p className="text-gray-700 font-semibold">Massachusetts & Southern NH</p>
-                    <p className="text-gray-500 text-sm mt-1">41 cities — from Boston to Gloucester to Nashua</p>
-                  </div>
-                </div>
-
-                {/* Trust note */}
-                <div className="bg-gray-50 border border-gray-200 rounded-2xl p-5">
-                  <div className="flex items-center gap-2 mb-2">
-                    <svg className="w-5 h-5 text-amber-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                    <span className="font-bold text-navy-950 text-sm">4.9/5 Stars &bull; 500+ Google Reviews</span>
-                  </div>
-                  <p className="text-gray-500 text-sm">Over 500 homeowners across New England have used Above Services LLC. We don't push work you don't need — we tell you what your chimney actually requires.</p>
-                </div>
-              </div>
-
-              {/* Contact form */}
-              <ContactForm />
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
+          <div className="grid grid-cols-1 md:grid-cols-2
